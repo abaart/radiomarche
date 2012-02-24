@@ -1,0 +1,156 @@
+@prefix    skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix    rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix     rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix      dc: <http://purl.org/dc/elements/1.1/> .
+@prefix        rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix         rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix radiomarche: <http://purl.org/w4ra/radiomarche/> .
+
+# Named toplevel resources (26)
+
+radiomarche:Communique
+	a rdfs:Class ;
+	rdfs:label "Communique" .
+
+radiomarche:Offering
+	a rdfs:Class ;
+	rdfs:label "Offering" .
+
+radiomarche:Person
+	a rdfs:Class ;
+	rdfs:label "Person" .
+
+radiomarche:com_id
+	a rdf:Property ;
+	rdfs:domain radiomarche:Communique ;
+	rdfs:label "com_id" ;
+	rdfs:range rdfs:Literal .
+
+radiomarche:com_number
+	a rdf:Property ;
+	rdfs:domain radiomarche:Offering ;
+	rdfs:label "com_number" ;
+	rdfs:range rdfs:Literal .
+
+radiomarche:con_com_id
+	a rdf:Property ;
+	rdfs:domain radiomarche:Communique ;
+	rdfs:label "con_com_id" ;
+	rdfs:range rdfs:Literal .
+
+radiomarche:contact_address
+	a rdf:Property ;
+	rdfs:domain radiomarche:Offering ;
+	rdfs:label "contact_address" ;
+	rdfs:range rdfs:Literal .
+
+radiomarche:contact_fname
+	a rdf:Property ;
+	rdfs:label "contact_fname" ;
+	rdfs:range rdfs:Literal .
+
+radiomarche:contact_lname
+	a rdf:Property ;
+	rdfs:label "contact_lname" ;
+	rdfs:range rdfs:Literal .
+
+radiomarche:contact_tel
+	a rdf:Property ;
+	rdfs:domain radiomarche:Person ;
+	rdfs:label "contact_tel" ;
+	rdfs:range rdfs:Literal .
+
+radiomarche:currency
+	a rdf:Property ;
+	rdfs:domain radiomarche:Offering ;
+	rdfs:label "currency" ;
+	rdfs:range rdfs:Literal .
+
+radiomarche:has_communique
+	a rdf:Property ;
+	rdfs:domain radiomarche:Offering ;
+	rdfs:label "has_communique" ;
+	rdfs:range radiomarche:Communique .
+
+radiomarche:has_contact
+	a rdf:Property ;
+	rdfs:domain radiomarche:Offering ;
+	rdfs:label "has_contact" ;
+	rdfs:range radiomarche:Person .
+
+radiomarche:has_offering
+	a rdf:Property ;
+	rdfs:domain radiomarche:Communique ;
+	rdfs:label "has_offering" ;
+	rdfs:range radiomarche:Offering .
+
+radiomarche:price
+	a rdf:Property ;
+	rdfs:domain radiomarche:Offering ;
+	rdfs:label "price" ;
+	rdfs:range rdfs:Literal .
+
+radiomarche:prod_com_id
+	a rdf:Property ;
+	rdfs:domain radiomarche:Offering ;
+	rdfs:label "prod_com_id" ;
+	rdfs:range rdfs:Literal .
+
+radiomarche:prod_name
+	a rdf:Property ;
+	rdfs:domain radiomarche:Offering ;
+	rdfs:label "prod_name" ;
+	rdfs:range rdfs:Literal .
+
+radiomarche:quality
+	a rdf:Property ;
+	rdfs:domain radiomarche:Offering ;
+	rdfs:label "quality" ;
+	rdfs:range rdfs:Literal .
+
+radiomarche:quantity
+	a rdf:Property ;
+	rdfs:domain radiomarche:Offering ;
+	rdfs:label "quantity" ;
+	rdfs:range rdfs:Literal .
+
+radiomarche:store_id
+	a rdf:Property ;
+	rdfs:domain radiomarche:Offering ;
+	rdfs:label "store_id" ;
+	rdfs:range rdfs:Literal .
+
+radiomarche:ts_date_delivered
+	a rdf:Property ;
+	rdfs:domain radiomarche:Offering ;
+	rdfs:label "ts_date_delivered" ;
+	rdfs:range rdfs:Literal .
+
+radiomarche:ts_date_entered
+	a rdf:Property ;
+	rdfs:domain radiomarche:Offering ;
+	rdfs:label "ts_date_entered" ;
+	rdfs:range rdfs:Literal .
+
+radiomarche:unit_measure
+	a rdf:Property ;
+	rdfs:domain radiomarche:Offering ;
+	rdfs:label "unit_measure" ;
+	rdfs:range rdfs:Literal .
+
+radiomarche:user_id
+	a rdf:Property ;
+	rdfs:domain radiomarche:Offering ;
+	rdfs:label "user_id" ;
+	rdfs:range rdfs:Literal .
+
+radiomarche:village
+	a rdf:Property ;
+	rdfs:label "village" ;
+	rdfs:range rdfs:Literal .
+
+radiomarche:zone
+	a rdf:Property ;
+	rdfs:label "zone" ;
+	rdfs:range rdfs:Literal .

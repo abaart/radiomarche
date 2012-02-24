@@ -1,0 +1,13 @@
+@prefix lib:     <http://www.swi-prolog.org/rdf/library/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix	dcterms: <http://purl.org/dc/terms/> .
+
+<MarketData>
+	a lib:Ontology ;
+	a lib:Virtual ;
+	a lib:CloudNode ;
+	dcterms:title "RadioMarche Market Data"@en ;
+	lib:source <http://purl.org/w4ra/radiomarche/> ;
+	owl:imports
+		<market_data.ttl>,
+		<rm-schema.ttl>.
