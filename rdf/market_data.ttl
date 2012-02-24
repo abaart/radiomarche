@@ -1,5 +1,5 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix  rm: <http://purl.org/w4ra/radiomarche/> .
+@prefix  rm: <http://purl.org/collections/w4ra/radiomarche/> .
 
 # Named toplevel resources (58)
 

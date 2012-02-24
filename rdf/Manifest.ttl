@@ -7,7 +7,7 @@
 	a lib:Virtual ;
 	a lib:CloudNode ;
 	dcterms:title "RadioMarche Market Data"@en ;
-	lib:source <http://purl.org/w4ra/radiomarche/> ;
+	lib:source <http://purl.org/collections/w4ra/radiomarche/> ;
 	owl:imports
 		<market_data.ttl>,
 		<rm-schema.ttl>.
