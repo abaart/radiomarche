@@ -1,0 +1,769 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix  rm: <http://purl.org/w4ra/radiomarche/> .
+
+# Named toplevel resources (58)
+
+rm:Andia_Kalakodio
+	a rm:Person ;
+	rm:contact_fname "Andia" ;
+	rm:contact_lname "Kalakodio" ;
+	rm:contact_tel "78 58 35 29" ;
+	rm:village "Siradié" ;
+	rm:zone "Lanfiala" .
+
+rm:Birawe_Domboua
+	a rm:Person ;
+	rm:contact_fname "Birawé" ;
+	rm:contact_lname "Domboua" ;
+	rm:contact_tel "78 13 86 71" ;
+	rm:village "Samoukuy" ;
+	rm:zone "Mafouné" .
+
+rm:Fidel_Kone
+	a rm:Person ;
+	rm:contact_fname "Fidel" ;
+	rm:contact_lname "Koné" ;
+	rm:contact_tel "77 66 96 26" ;
+	rm:village "Kona" ;
+	rm:zone "Mandiakuy" .
+
+rm:Gerard_Traore
+	a rm:Person ;
+	rm:contact_fname "Gérard" ;
+	rm:contact_lname "Traoré" ;
+	rm:contact_tel "77 27 42 48" ;
+	rm:village "Tieblenikuy" ;
+	rm:zone "Koula" .
+
+rm:Irene_Keita
+	a rm:Person ;
+	rm:contact_fname "Iréné" ;
+	rm:contact_lname "Keita" ;
+	rm:contact_tel "78 25 84 13" ;
+	rm:village "Sanda" ;
+	rm:zone "Mafouné" .
+
+rm:Ives_Diarra
+	a rm:Person ;
+	rm:contact_fname "Ives" ;
+	rm:contact_lname "Diarra" ;
+	rm:contact_tel "7899103" ;
+	rm:village "kona" ;
+	rm:zone "mafoune" .
+
+rm:Missa_Kamate
+	a rm:Person ;
+	rm:contact_fname "Missa" ;
+	rm:contact_lname "Kamaté" ;
+	rm:contact_tel "78 18 05 49" ;
+	rm:village "Pakan Bobo" ;
+	rm:zone "Koula" .
+
+rm:Moutian_Keita
+	a rm:Person ;
+	rm:contact_fname "Moutian" ;
+	rm:contact_lname "Keita" ;
+	rm:contact_tel "78437947" ;
+	rm:village "Sira" ,
+		   "sira" ;
+	rm:zone "Mafouné" ,
+		"mafouné" .
+
+rm:Tandin_Dembele
+	a rm:Person ;
+	rm:contact_fname "Tandin" ;
+	rm:contact_lname "Dembele" ;
+	rm:contact_tel "7899103" ;
+	rm:village "kona" ;
+	rm:zone "mafoune" .
+
+rm:Zakary_Diarra
+	a rm:Person ;
+	rm:contact_fname "Zakary" ;
+	rm:contact_lname "Diarra" ;
+	rm:contact_tel "78 57 12 98" ,
+		       "78571298" ,
+		       "78571299" ;
+	rm:village "Bokuy- Mankoïna" ,
+		   "bokuy mankoina" ,
+		   "bokuy-mankoina" ;
+	rm:zone "Mafouné" ,
+		"mafounde" ,
+		"mafoune" .
+
+rm:communique_4ef066fd51ef2
+	a rm:Communique ;
+	rm:com_id "4ef066fd51ef2" ;
+	rm:con_com_id "13" ;
+	rm:has_offering rm:offering_1 .
+
+rm:communique_4ef3652fb3157
+	a rm:Communique ;
+	rm:com_id "4ef3652fb3157" ;
+	rm:con_com_id "17" ;
+	rm:has_offering rm:offering_2 ,
+			rm:offering_3 ,
+			rm:offering_4 .
+
+rm:communique_4f06bc79ae3f8
+	a rm:Communique ;
+	rm:com_id "4f06bc79ae3f8" ;
+	rm:con_com_id "13" ;
+	rm:has_offering rm:offering_5 .
+
+rm:communique_4f0c34c541f9e
+	a rm:Communique ;
+	rm:com_id "4f0c34c541f9e" ;
+	rm:con_com_id "11" ;
+	rm:has_offering rm:offering_8 ,
+			rm:offering_9 .
+
+rm:communique_4f0c363778ec0
+	a rm:Communique ;
+	rm:com_id "4f0c363778ec0" ;
+	rm:con_com_id "11" ;
+	rm:has_offering rm:offering_10 ,
+			rm:offering_11 .
+
+rm:communique_4f0d6187f0c04
+	a rm:Communique ;
+	rm:com_id "4f0d6187f0c04" ;
+	rm:con_com_id "18" ,
+		      "7" ;
+	rm:has_offering rm:offering_48 ,
+			rm:offering_49 .
+
+rm:communique_4f0ecb2bb3444
+	a rm:Communique ;
+	rm:com_id "4f0ecb2bb3444" ;
+	rm:con_com_id "11" ,
+		      "14" ,
+		      "7" ;
+	rm:has_offering rm:offering_52 ,
+			rm:offering_53 ,
+			rm:offering_54 ,
+			rm:offering_55 ,
+			rm:offering_56 ,
+			rm:offering_57 .
+
+rm:communique_4f0f4e537f7e3
+	a rm:Communique ;
+	rm:com_id "4f0f4e537f7e3" ;
+	rm:con_com_id "13" ,
+		      "3" ;
+	rm:has_offering rm:offering_50 ,
+			rm:offering_51 .
+
+rm:communique_4f279c3e69069
+	a rm:Communique ;
+	rm:com_id "4f279c3e69069" ;
+	rm:con_com_id "11" ;
+	rm:has_offering rm:offering_58 ,
+			rm:offering_59 .
+
+rm:communique_4f279d266a1c2
+	a rm:Communique ;
+	rm:com_id "4f279d266a1c2" ;
+	rm:con_com_id "11" ,
+		      "16" ;
+	rm:has_offering rm:offering_60 ,
+			rm:offering_61 ,
+			rm:offering_62 .
+
+rm:communique_4f2918bc6a7af
+	a rm:Communique ;
+	rm:com_id "4f2918bc6a7af" ;
+	rm:con_com_id "1" ,
+		      "11" ,
+		      "15" ,
+		      "5" ,
+		      "6" ,
+		      "7" ;
+	rm:has_offering rm:offering_63 ,
+			rm:offering_64 ,
+			rm:offering_65 ,
+			rm:offering_66 ,
+			rm:offering_67 ,
+			rm:offering_68 .
+
+rm:communique_4f44d24fd6dae
+	a rm:Communique ;
+	rm:com_id "4f44d24fd6dae" ;
+	rm:con_com_id "13" ;
+	rm:has_offering rm:offering_69 .
+
+rm:fidel_kone
+	a rm:Person ;
+	rm:contact_fname "fidel" ;
+	rm:contact_lname "koné" ;
+	rm:contact_tel "77669626" ;
+	rm:village "kona" ;
+	rm:zone "mandiakuy" .
+
+rm:ives_diarra
+	a rm:Person ;
+	rm:contact_fname "ives" ,
+			 "ives " ;
+	rm:contact_lname " diarra" ,
+			 "diarra" ;
+	rm:contact_tel "74634097" ;
+	rm:village "kinlokuy" ;
+	rm:zone "diora" .
+
+rm:mazankuy_diarra
+	a rm:Person ;
+	rm:contact_fname "mazankuy" ;
+	rm:contact_lname "diarra" ;
+	rm:contact_tel "70549489" ;
+	rm:village "souté" ;
+	rm:zone "mafouné" .
+
+rm:moutian_keita
+	a rm:Person ;
+	rm:contact_fname "moutian" ;
+	rm:contact_lname " keita" ,
+			 "keita" ;
+	rm:contact_tel "78437947" ;
+	rm:village "sira" ;
+	rm:zone "mafouné" .
+
+rm:offering_1
+	a rm:Offering ;
+	rm:com_number "1" ;
+	rm:currency "CFA" ;
+	rm:has_communique rm:communique_4ef066fd51ef2 ;
+	rm:has_contact rm:zakary_diarra ;
+	rm:price "1000.00" ;
+	rm:prod_com_id "9" ;
+	rm:prod_name "tamarin" ;
+	rm:quality "Tamarin decortique propre" ;
+	rm:quantity "105.00" ;
+	rm:store_id "1" ;
+	rm:ts_date_delivered "2011-12-22 16:52:40" ;
+	rm:ts_date_entered "2011-12-20 10:42:16" ;
+	rm:unit_measure "kg" ;
+	rm:user_id "6" .
+
+rm:offering_10
+	a rm:Offering ;
+	rm:com_number "18" ;
+	rm:currency "CFA" ;
+	rm:has_communique rm:communique_4f0c363778ec0 ;
+	rm:has_contact rm:Moutian_Keita ;
+	rm:price "1000.00" ;
+	rm:prod_com_id "2" ;
+	rm:prod_name "beurre de karite" ;
+	rm:quality "beurre issu des amandes ebouillantées" ;
+	rm:quantity "40.00" ;
+	rm:store_id "10" ;
+	rm:ts_date_delivered "2012-01-10 13:03:31" ;
+	rm:ts_date_entered "2012-01-10 12:52:07" ;
+	rm:unit_measure "kg" ;
+	rm:user_id "9" .
+
+rm:offering_11
+	a rm:Offering ;
+	rm:com_number "18" ;
+	rm:currency "CFA" ;
+	rm:has_communique rm:communique_4f0c363778ec0 ;
+	rm:has_contact rm:Moutian_Keita ;
+	rm:price "250.00" ;
+	rm:prod_com_id "4" ;
+	rm:prod_name "tamarin" ;
+	rm:quality "tamarin décourtiqué propre" ;
+	rm:quantity "100.00" ;
+	rm:store_id "11" ;
+	rm:ts_date_delivered "2012-01-10 13:03:31" ;
+	rm:ts_date_entered "2012-01-10 12:53:07" ;
+	rm:unit_measure "kg" ;
+	rm:user_id "9" .
+
+rm:offering_2
+	a rm:Offering ;
+	rm:com_number "1" ;
+	rm:currency "CFA" ;
+	rm:has_communique rm:communique_4ef3652fb3157 ;
+	rm:has_contact rm:ives_diarra ;
+	rm:price "1000.00" ;
+	rm:prod_com_id "2" ;
+	rm:prod_name "beurre de karite" ;
+	rm:quality "beurre issu des amandes ebouillantées" ;
+	rm:quantity "50.00" ;
+	rm:store_id "2" ;
+	rm:ts_date_delivered "2011-12-22 17:46:19" ;
+	rm:ts_date_entered "2011-12-22 16:59:34" ;
+	rm:unit_measure "kg" ;
+	rm:user_id "6" .
+
+rm:offering_3
+	a rm:Offering ;
+	rm:com_number "1" ;
+	rm:currency "CFA" ;
+	rm:has_communique rm:communique_4ef3652fb3157 ;
+	rm:has_contact rm:ives_diarra ;
+	rm:price "750.00" ;
+	rm:prod_com_id "4" ;
+	rm:prod_name "tamarin" ;
+	rm:quality "tamarin décortiqué propre" ;
+	rm:quantity "900.00" ;
+	rm:store_id "3" ;
+	rm:ts_date_delivered "2011-12-22 17:46:19" ;
+	rm:ts_date_entered "2011-12-22 16:59:34" ;
+	rm:unit_measure "kg" ;
+	rm:user_id "6" .
+
+rm:offering_4
+	a rm:Offering ;
+	rm:com_number "1" ;
+	rm:currency "CFA" ;
+	rm:has_communique rm:communique_4ef3652fb3157 ;
+	rm:has_contact rm:ives_diarra ;
+	rm:price "150.00" ;
+	rm:prod_com_id "1" ;
+	rm:prod_name "amande de karite" ;
+	rm:quality "amande ébouillanté" ;
+	rm:quantity "3000.00" ;
+	rm:store_id "4" ;
+	rm:ts_date_delivered "2011-12-22 17:46:19" ;
+	rm:ts_date_entered "2011-12-22 16:59:34" ;
+	rm:unit_measure "kg" ;
+	rm:user_id "6" .
+
+rm:offering_48
+	a rm:Offering ;
+	rm:com_number "1" ;
+	rm:contact_address "" ;
+	rm:currency "cfa" ;
+	rm:has_communique rm:communique_4f0d6187f0c04 ;
+	rm:has_contact rm:Ives_Diarra ;
+	rm:price "425.00" ;
+	rm:prod_com_id "3" ;
+	rm:prod_name "Graine de nere" ;
+	rm:quality "Bien" ;
+	rm:quantity "470.00" ;
+	rm:store_id "48" ;
+	rm:ts_date_delivered "2012-01-12 14:47:49" ;
+	rm:ts_date_entered "2011-08-10 23:31:39" ;
+	rm:unit_measure "Kg" ;
+	rm:user_id "1" .
+
+rm:offering_49
+	a rm:Offering ;
+	rm:com_number "1" ;
+	rm:currency "CFA" ;
+	rm:has_communique rm:communique_4f0d6187f0c04 ;
+	rm:has_contact rm:Tandin_Dembele ;
+	rm:price "200.00" ;
+	rm:prod_com_id "1" ;
+	rm:prod_name "amande de karite" ;
+	rm:quality "Bien" ;
+	rm:quantity "1000.00" ;
+	rm:store_id "49" ;
+	rm:ts_date_delivered "2012-01-12 14:47:49" ;
+	rm:ts_date_entered "2012-01-11 10:10:46" ;
+	rm:unit_measure "kg" ;
+	rm:user_id "1" .
+
+rm:offering_5
+	a rm:Offering ;
+	rm:com_number "2" ;
+	rm:currency "CFA" ;
+	rm:has_communique rm:communique_4f06bc79ae3f8 ;
+	rm:has_contact rm:Zakary_Diarra ;
+	rm:price "1000.00" ;
+	rm:prod_com_id "4" ;
+	rm:prod_name "tamarin" ;
+	rm:quality "Tamarin decortique propre" ;
+	rm:quantity "105.00" ;
+	rm:store_id "5" ;
+	rm:ts_date_delivered "2012-01-08 00:18:33" ;
+	rm:ts_date_entered "2011-12-20 10:42:16" ;
+	rm:unit_measure "kg" ;
+	rm:user_id "6" .
+
+rm:offering_50
+	a rm:Offering ;
+	rm:com_number "2" ;
+	rm:contact_address "" ;
+	rm:currency "cfa" ;
+	rm:has_communique rm:communique_4f0f4e537f7e3 ;
+	rm:has_contact rm:Zakary_Diarra ;
+	rm:price "2000.00" ;
+	rm:prod_com_id "5" ;
+	rm:prod_name "Miel liquide" ;
+	rm:quality "miel non brule" ;
+	rm:quantity "200.00" ;
+	rm:store_id "50" ;
+	rm:ts_date_delivered "2012-01-12 21:23:25" ;
+	rm:ts_date_entered "2011-08-10 23:25:39" ;
+	rm:unit_measure "L" ;
+	rm:user_id "1" .
+
+rm:offering_51
+	a rm:Offering ;
+	rm:com_number "2" ;
+	rm:contact_fname "Sabere" ;
+	rm:contact_lname "Diarra" ;
+	rm:currency "CFA" ;
+	rm:has_communique rm:communique_4f0f4e537f7e3 ;
+	rm:price "2000.00" ;
+	rm:prod_com_id "5" ;
+	rm:prod_name "miel liquide" ;
+	rm:quality "Miel  non brulé et pressé avec les soins d'hygiéne alimentaire" ;
+	rm:quantity "60.00" ;
+	rm:store_id "51" ;
+	rm:ts_date_delivered "2012-01-12 21:23:25" ;
+	rm:ts_date_entered "2011-12-18 18:23:40" ;
+	rm:unit_measure "kg" ;
+	rm:user_id "1" ;
+	rm:village "bambara" ;
+	rm:zone "koula" .
+
+rm:offering_52
+	a rm:Offering ;
+	rm:com_number "5" ;
+	rm:currency "CFA" ;
+	rm:has_communique rm:communique_4f0ecb2bb3444 ;
+	rm:has_contact rm:moutian_keita ;
+	rm:price "1000.00" ;
+	rm:prod_com_id "2" ;
+	rm:prod_name "beurre de karite" ;
+	rm:quality "beurre issu des amandes ebouillantées" ;
+	rm:quantity "40.00" ;
+	rm:store_id "52" ;
+	rm:ts_date_delivered "2012-01-12 14:08:26" ;
+	rm:ts_date_entered "2012-01-12 11:59:40" ;
+	rm:unit_measure "kg" ;
+	rm:user_id "6" .
+
+rm:offering_53
+	a rm:Offering ;
+	rm:com_number "5" ;
+	rm:currency "CFA" ;
+	rm:has_communique rm:communique_4f0ecb2bb3444 ;
+	rm:has_contact rm:moutian_keita ;
+	rm:price "250.00" ;
+	rm:prod_com_id "4" ;
+	rm:prod_name "tamarin" ;
+	rm:quality "tamarin décortiqué propre" ;
+	rm:quantity "100.00" ;
+	rm:store_id "53" ;
+	rm:ts_date_delivered "2012-01-12 14:08:26" ;
+	rm:ts_date_entered "2012-01-08 00:05:39" ;
+	rm:unit_measure "kg" ;
+	rm:user_id "6" .
+
+rm:offering_54
+	a rm:Offering ;
+	rm:com_number "5" ;
+	rm:currency "CFA" ;
+	rm:has_communique rm:communique_4f0ecb2bb3444 ;
+	rm:has_contact rm:fidel_kone ;
+	rm:price "125.00" ;
+	rm:prod_com_id "1" ;
+	rm:prod_name "Amande de karite" ;
+	rm:quality "amande fumée" ;
+	rm:quantity "3000.00" ;
+	rm:store_id "54" ;
+	rm:ts_date_delivered "2012-01-12 14:08:26" ;
+	rm:ts_date_entered "2012-01-08 00:09:37" ;
+	rm:unit_measure "kg" ;
+	rm:user_id "6" .
+
+rm:offering_55
+	a rm:Offering ;
+	rm:com_number "5" ;
+	rm:currency "CFA" ;
+	rm:has_communique rm:communique_4f0ecb2bb3444 ;
+	rm:has_contact rm:fidel_kone ;
+	rm:price "1000.00" ;
+	rm:prod_com_id "1" ;
+	rm:prod_name "beurre de karite" ;
+	rm:quality "beurre issu des amandes ebouillantées" ;
+	rm:quantity "100.00" ;
+	rm:store_id "55" ;
+	rm:ts_date_delivered "2012-01-12 14:08:26" ;
+	rm:ts_date_entered "2012-01-08 00:11:47" ;
+	rm:unit_measure "kg" ;
+	rm:user_id "6" .
+
+rm:offering_56
+	a rm:Offering ;
+	rm:com_number "5" ;
+	rm:currency "CFA" ;
+	rm:has_communique rm:communique_4f0ecb2bb3444 ;
+	rm:has_contact rm:mazankuy_diarra ;
+	rm:price "250.00" ;
+	rm:prod_com_id "1" ;
+	rm:prod_name "amande de karite" ;
+	rm:quality "amande ebouillante" ;
+	rm:quantity "900.00" ;
+	rm:store_id "56" ;
+	rm:ts_date_delivered "2012-01-12 14:08:26" ;
+	rm:ts_date_entered "2012-01-12 11:32:28" ;
+	rm:unit_measure "kg" ;
+	rm:user_id "6" .
+
+rm:offering_57
+	a rm:Offering ;
+	rm:com_number "5" ;
+	rm:currency "CFA" ;
+	rm:has_communique rm:communique_4f0ecb2bb3444 ;
+	rm:has_contact rm:mazankuy_diarra ;
+	rm:price "600.00" ;
+	rm:prod_com_id "2" ;
+	rm:prod_name "beurre de karite" ;
+	rm:quality "beurre issu des amandes fumées" ;
+	rm:quantity "800.00" ;
+	rm:store_id "57" ;
+	rm:ts_date_delivered "2012-01-12 14:08:26" ;
+	rm:ts_date_entered "2012-01-12 11:34:31" ;
+	rm:unit_measure "kg" ;
+	rm:user_id "6" .
+
+rm:offering_58
+	a rm:Offering ;
+	rm:com_number "2" ;
+	rm:currency "CFA" ;
+	rm:has_communique rm:communique_4f279c3e69069 ;
+	rm:has_contact rm:Moutian_Keita ;
+	rm:price "1000.00" ;
+	rm:prod_com_id "2" ;
+	rm:prod_name "beurre de karite" ;
+	rm:quality "beurre issu des amandes ebouillantées" ;
+	rm:quantity "40.00" ;
+	rm:store_id "58" ;
+	rm:ts_date_delivered "2012-01-31 07:48:54" ;
+	rm:ts_date_entered "2012-01-10 12:52:07" ;
+	rm:unit_measure "kg" ;
+	rm:user_id "9" .
+
+rm:offering_59
+	a rm:Offering ;
+	rm:com_number "2" ;
+	rm:currency "CFA" ;
+	rm:has_communique rm:communique_4f279c3e69069 ;
+	rm:has_contact rm:Moutian_Keita ;
+	rm:price "250.00" ;
+	rm:prod_com_id "4" ;
+	rm:prod_name "tamarin" ;
+	rm:quality "tamarin décourtiqué propre" ;
+	rm:quantity "100.00" ;
+	rm:store_id "59" ;
+	rm:ts_date_delivered "2012-01-31 07:48:54" ;
+	rm:ts_date_entered "2012-01-10 12:53:07" ;
+	rm:unit_measure "kg" ;
+	rm:user_id "9" .
+
+rm:offering_60
+	a rm:Offering ;
+	rm:com_number "23" ;
+	rm:currency "CFA" ;
+	rm:has_communique rm:communique_4f279d266a1c2 ;
+	rm:has_contact rm:Moutian_Keita ;
+	rm:price "1000.00" ;
+	rm:prod_com_id "2" ;
+	rm:prod_name "beurre de karite" ;
+	rm:quality "beurre issu des amandes ebouillantées" ;
+	rm:quantity "40.00" ;
+	rm:store_id "60" ;
+	rm:ts_date_delivered "2012-01-31 07:50:20" ;
+	rm:ts_date_entered "2012-01-10 12:52:07" ;
+	rm:unit_measure "kg" ;
+	rm:user_id "9" .
+
+rm:offering_61
+	a rm:Offering ;
+	rm:com_number "23" ;
+	rm:currency "CFA" ;
+	rm:has_communique rm:communique_4f279d266a1c2 ;
+	rm:has_contact rm:Moutian_Keita ;
+	rm:price "250.00" ;
+	rm:prod_com_id "4" ;
+	rm:prod_name "tamarin" ;
+	rm:quality "tamarin décourtiqué propre" ;
+	rm:quantity "100.00" ;
+	rm:store_id "61" ;
+	rm:ts_date_delivered "2012-01-31 07:50:20" ;
+	rm:ts_date_entered "2012-01-10 12:53:07" ;
+	rm:unit_measure "kg" ;
+	rm:user_id "9" .
+
+rm:offering_62
+	a rm:Offering ;
+	rm:com_number "23" ;
+	rm:currency "CFA" ;
+	rm:has_communique rm:communique_4f279d266a1c2 ;
+	rm:has_contact rm:Birawe_Domboua ;
+	rm:price "1230.00" ;
+	rm:prod_com_id "5" ;
+	rm:prod_name "Miel liquide" ;
+	rm:quality "Miel non brulé et pressé avec les soins d’hygiène alimentaire" ;
+	rm:quantity "12.00" ;
+	rm:store_id "62" ;
+	rm:ts_date_delivered "2012-01-31 07:50:20" ;
+	rm:ts_date_entered "2012-01-31 07:49:38" ;
+	rm:unit_measure "L" ;
+	rm:user_id "9" .
+
+rm:offering_63
+	a rm:Offering ;
+	rm:com_number "6" ;
+	rm:currency "CFA" ;
+	rm:has_communique rm:communique_4f2918bc6a7af ;
+	rm:has_contact rm:Gerard_Traore ;
+	rm:price "250.00" ;
+	rm:prod_com_id "4" ;
+	rm:prod_name "Tamarin" ;
+	rm:quality "Tamarin mur décortiqué" ;
+	rm:quantity "450.00" ;
+	rm:store_id "63" ;
+	rm:ts_date_delivered "2012-02-01 10:54:57" ;
+	rm:ts_date_entered "2012-02-01 10:11:47" ;
+	rm:unit_measure "Kg" ;
+	rm:user_id "6" .
+
+rm:offering_64
+	a rm:Offering ;
+	rm:com_number "6" ;
+	rm:currency "CFA" ;
+	rm:has_communique rm:communique_4f2918bc6a7af ;
+	rm:has_contact rm:Missa_Kamate ;
+	rm:price "250.00" ;
+	rm:prod_com_id "4" ;
+	rm:prod_name "Tamarin" ;
+	rm:quality "Tamarin mur décortiqué" ;
+	rm:quantity "200.00" ;
+	rm:store_id "64" ;
+	rm:ts_date_delivered "2012-02-01 10:54:57" ;
+	rm:ts_date_entered "2012-02-01 10:12:54" ;
+	rm:unit_measure "Kg" ;
+	rm:user_id "6" .
+
+rm:offering_65
+	a rm:Offering ;
+	rm:com_number "6" ;
+	rm:currency "CFA" ;
+	rm:has_communique rm:communique_4f2918bc6a7af ;
+	rm:has_contact rm:Andia_Kalakodio ;
+	rm:price "250.00" ;
+	rm:prod_com_id "4" ;
+	rm:prod_name "Tamarin" ;
+	rm:quality "Tamarin mur décortiqué" ;
+	rm:quantity "450.00" ;
+	rm:store_id "65" ;
+	rm:ts_date_delivered "2012-02-01 10:54:57" ;
+	rm:ts_date_entered "2012-02-01 10:13:31" ;
+	rm:unit_measure "Kg" ;
+	rm:user_id "6" .
+
+rm:offering_66
+	a rm:Offering ;
+	rm:com_number "6" ;
+	rm:currency "CFA" ;
+	rm:has_communique rm:communique_4f2918bc6a7af ;
+	rm:has_contact rm:Moutian_Keita ;
+	rm:price "1000.00" ;
+	rm:prod_com_id "2" ;
+	rm:prod_name "Beurre de karite" ;
+	rm:quality "Beurre issu des amandes ébouillantées" ;
+	rm:quantity "450.00" ;
+	rm:store_id "66" ;
+	rm:ts_date_delivered "2012-02-01 10:54:57" ;
+	rm:ts_date_entered "2012-02-01 10:15:15" ;
+	rm:unit_measure "Kg" ;
+	rm:user_id "6" .
+
+rm:offering_67
+	a rm:Offering ;
+	rm:com_number "6" ;
+	rm:currency "CFA" ;
+	rm:has_communique rm:communique_4f2918bc6a7af ;
+	rm:has_contact rm:Irene_Keita ;
+	rm:price "1000.00" ;
+	rm:prod_com_id "2" ;
+	rm:prod_name "Beurre de karite" ;
+	rm:quality "Beurre issu des amandes ébouillantées" ;
+	rm:quantity "200.00" ;
+	rm:store_id "67" ;
+	rm:ts_date_delivered "2012-02-01 10:54:57" ;
+	rm:ts_date_entered "2012-02-01 00:00:00" ;
+	rm:unit_measure "Kg" ;
+	rm:user_id "6" .
+
+rm:offering_68
+	a rm:Offering ;
+	rm:com_number "6" ;
+	rm:contact_address "" ;
+	rm:currency "CFA" ;
+	rm:has_communique rm:communique_4f2918bc6a7af ;
+	rm:has_contact rm:Fidel_Kone ;
+	rm:price "450.00" ;
+	rm:prod_com_id "3" ;
+	rm:prod_name "Graine de nere" ;
+	rm:quality "Graine propre" ;
+	rm:quantity "120.00" ;
+	rm:store_id "68" ;
+	rm:ts_date_delivered "2012-02-01 10:54:57" ;
+	rm:ts_date_entered "2012-02-01 10:18:27" ;
+	rm:unit_measure "Kg" ;
+	rm:user_id "6" .
+
+rm:offering_69
+	a rm:Offering ;
+	rm:com_number "7" ;
+	rm:currency "CFA" ;
+	rm:has_communique rm:communique_4f44d24fd6dae ;
+	rm:has_contact rm:Zakary_Diarra ;
+	rm:price "2000.00" ;
+	rm:prod_com_id "5" ;
+	rm:prod_name "Miel liquide" ;
+	rm:quality "Miel non brulé et pressé avec les soins d’hygiène alimentaire" ;
+	rm:quantity "60.00" ;
+	rm:store_id "69" ;
+	rm:ts_date_delivered "2012-02-22 11:50:15" ;
+	rm:ts_date_entered "2012-02-22 11:31:28" ;
+	rm:unit_measure "L" ;
+	rm:user_id "6" .
+
+rm:offering_8
+	a rm:Offering ;
+	rm:com_number "4" ;
+	rm:currency "CFA" ;
+	rm:has_communique rm:communique_4f0c34c541f9e ;
+	rm:has_contact rm:Moutian_Keita ;
+	rm:price "1000.00" ;
+	rm:prod_com_id "2" ;
+	rm:prod_name "beurre de karite" ;
+	rm:quality "beurre issu des amandes ebouillantées" ;
+	rm:quantity "40.00" ;
+	rm:store_id "8" ;
+	rm:ts_date_delivered "2012-01-10 12:56:36" ;
+	rm:ts_date_entered "2012-01-10 12:52:07" ;
+	rm:unit_measure "kg" ;
+	rm:user_id "9" .
+
+rm:offering_9
+	a rm:Offering ;
+	rm:com_number "4" ;
+	rm:currency "CFA" ;
+	rm:has_communique rm:communique_4f0c34c541f9e ;
+	rm:has_contact rm:Moutian_Keita ;
+	rm:price "250.00" ;
+	rm:prod_com_id "4" ;
+	rm:prod_name "tamarin" ;
+	rm:quality "tamarin décourtiqué propre" ;
+	rm:quantity "100.00" ;
+	rm:store_id "9" ;
+	rm:ts_date_delivered "2012-01-10 12:56:36" ;
+	rm:ts_date_entered "2012-01-10 12:53:07" ;
+	rm:unit_measure "kg" ;
+	rm:user_id "9" .
+
+rm:zakary_diarra
+	a rm:Person ;
+	rm:contact_fname "zakary " ;
+	rm:contact_lname "diarra" ;
+	rm:contact_tel "78571298" ;
+	rm:village "bokuy mankoina" ;
+	rm:zone "mafoune" .

@@ -1,0 +1,672 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+-
+- phpMyAdmin XML Dump
+- version 2.11.8.1deb5+lenny6
+- http://www.phpmyadmin.net
+-
+- Host: localhost
+- Generation Time: Feb 24, 2012 at 02:32 PM
+- Server version: 5.0.51
+- PHP Version: 5.2.6-1+lenny9
+-->
+
+<!--
+- Database: 'proj_V_webInt_wwv7XXWG'
+-->
+<proj_V_webInt_wwv7XXWG>
+  <!-- Table market_store -->
+    <market_store>
+        <store_id>1</store_id>
+        <com_id>4ef066fd51ef2</com_id>
+        <con_com_id>13</con_com_id>
+        <prod_com_id>9</prod_com_id>
+        <user_id>6</user_id>
+        <com_number>1</com_number>
+        <prod_name>tamarin</prod_name>
+        <unit_measure>kg</unit_measure>
+        <quantity>105.00</quantity>
+        <quality>Tamarin decortique propre</quality>
+        <price>1000.00</price>
+        <currency>CFA</currency>
+        <ts_date_entered>2011-12-20 10:42:16</ts_date_entered>
+        <ts_date_delivered>2011-12-22 16:52:40</ts_date_delivered>
+        <contact_fname>zakary </contact_fname>
+        <contact_lname>diarra</contact_lname>
+        <contact_tel>78571298</contact_tel>
+        <village>bokuy mankoina</village>
+        <zone>mafoune</zone>
+    </market_store>
+    <market_store>
+        <store_id>2</store_id>
+        <com_id>4ef3652fb3157</com_id>
+        <con_com_id>17</con_com_id>
+        <prod_com_id>2</prod_com_id>
+        <user_id>6</user_id>
+        <com_number>1</com_number>
+        <prod_name>beurre de karite</prod_name>
+        <unit_measure>kg</unit_measure>
+        <quantity>50.00</quantity>
+        <quality>beurre issu des amandes ebouillantées</quality>
+        <price>1000.00</price>
+        <currency>CFA</currency>
+        <ts_date_entered>2011-12-22 16:59:34</ts_date_entered>
+        <ts_date_delivered>2011-12-22 17:46:19</ts_date_delivered>
+        <contact_fname>ives </contact_fname>
+        <contact_lname>diarra</contact_lname>
+        <contact_tel>74634097</contact_tel>
+        <village>kinlokuy</village>
+        <zone>diora</zone>
+    </market_store>
+    <market_store>
+        <store_id>3</store_id>
+        <com_id>4ef3652fb3157</com_id>
+        <con_com_id>17</con_com_id>
+        <prod_com_id>4</prod_com_id>
+        <user_id>6</user_id>
+        <com_number>1</com_number>
+        <prod_name>tamarin</prod_name>
+        <unit_measure>kg</unit_measure>
+        <quantity>900.00</quantity>
+        <quality>tamarin décortiqué propre</quality>
+        <price>750.00</price>
+        <currency>CFA</currency>
+        <ts_date_entered>2011-12-22 16:59:34</ts_date_entered>
+        <ts_date_delivered>2011-12-22 17:46:19</ts_date_delivered>
+        <contact_fname>ives </contact_fname>
+        <contact_lname>diarra</contact_lname>
+        <contact_tel>74634097</contact_tel>
+        <village>kinlokuy</village>
+        <zone>diora</zone>
+    </market_store>
+    <market_store>
+        <store_id>4</store_id>
+        <com_id>4ef3652fb3157</com_id>
+        <con_com_id>17</con_com_id>
+        <prod_com_id>1</prod_com_id>
+        <user_id>6</user_id>
+        <com_number>1</com_number>
+        <prod_name>amande de karite</prod_name>
+        <unit_measure>kg</unit_measure>
+        <quantity>3000.00</quantity>
+        <quality>amande ébouillanté</quality>
+        <price>150.00</price>
+        <currency>CFA</currency>
+        <ts_date_entered>2011-12-22 16:59:34</ts_date_entered>
+        <ts_date_delivered>2011-12-22 17:46:19</ts_date_delivered>
+        <contact_fname>ives</contact_fname>
+        <contact_lname> diarra</contact_lname>
+        <contact_tel>74634097</contact_tel>
+        <village>kinlokuy</village>
+        <zone>diora</zone>
+    </market_store>
+    <market_store>
+        <store_id>5</store_id>
+        <com_id>4f06bc79ae3f8</com_id>
+        <con_com_id>13</con_com_id>
+        <prod_com_id>4</prod_com_id>
+        <user_id>6</user_id>
+        <com_number>2</com_number>
+        <prod_name>tamarin</prod_name>
+        <unit_measure>kg</unit_measure>
+        <quantity>105.00</quantity>
+        <quality>Tamarin decortique propre</quality>
+        <price>1000.00</price>
+        <currency>CFA</currency>
+        <ts_date_entered>2011-12-20 10:42:16</ts_date_entered>
+        <ts_date_delivered>2012-01-08 00:18:33</ts_date_delivered>
+        <contact_fname>Zakary</contact_fname>
+        <contact_lname>Diarra</contact_lname>
+        <contact_tel>78571298</contact_tel>
+        <village>bokuy mankoina</village>
+        <zone>mafoune</zone>
+    </market_store>
+    <market_store>
+        <store_id>8</store_id>
+        <com_id>4f0c34c541f9e</com_id>
+        <con_com_id>11</con_com_id>
+        <prod_com_id>2</prod_com_id>
+        <user_id>9</user_id>
+        <com_number>4</com_number>
+        <prod_name>beurre de karite</prod_name>
+        <unit_measure>kg</unit_measure>
+        <quantity>40.00</quantity>
+        <quality>beurre issu des amandes ebouillantées</quality>
+        <price>1000.00</price>
+        <currency>CFA</currency>
+        <ts_date_entered>2012-01-10 12:52:07</ts_date_entered>
+        <ts_date_delivered>2012-01-10 12:56:36</ts_date_delivered>
+        <contact_fname>Moutian</contact_fname>
+        <contact_lname>Keita</contact_lname>
+        <contact_tel>78437947</contact_tel>
+        <village>sira</village>
+        <zone>mafouné</zone>
+    </market_store>
+    <market_store>
+        <store_id>9</store_id>
+        <com_id>4f0c34c541f9e</com_id>
+        <con_com_id>11</con_com_id>
+        <prod_com_id>4</prod_com_id>
+        <user_id>9</user_id>
+        <com_number>4</com_number>
+        <prod_name>tamarin</prod_name>
+        <unit_measure>kg</unit_measure>
+        <quantity>100.00</quantity>
+        <quality>tamarin décourtiqué propre</quality>
+        <price>250.00</price>
+        <currency>CFA</currency>
+        <ts_date_entered>2012-01-10 12:53:07</ts_date_entered>
+        <ts_date_delivered>2012-01-10 12:56:36</ts_date_delivered>
+        <contact_fname>Moutian</contact_fname>
+        <contact_lname>Keita</contact_lname>
+        <contact_tel>78437947</contact_tel>
+        <village>sira</village>
+        <zone>mafouné</zone>
+    </market_store>
+    <market_store>
+        <store_id>10</store_id>
+        <com_id>4f0c363778ec0</com_id>
+        <con_com_id>11</con_com_id>
+        <prod_com_id>2</prod_com_id>
+        <user_id>9</user_id>
+        <com_number>18</com_number>
+        <prod_name>beurre de karite</prod_name>
+        <unit_measure>kg</unit_measure>
+        <quantity>40.00</quantity>
+        <quality>beurre issu des amandes ebouillantées</quality>
+        <price>1000.00</price>
+        <currency>CFA</currency>
+        <ts_date_entered>2012-01-10 12:52:07</ts_date_entered>
+        <ts_date_delivered>2012-01-10 13:03:31</ts_date_delivered>
+        <contact_fname>Moutian</contact_fname>
+        <contact_lname>Keita</contact_lname>
+        <contact_tel>78437947</contact_tel>
+        <village>sira</village>
+        <zone>mafouné</zone>
+    </market_store>
+    <market_store>
+        <store_id>11</store_id>
+        <com_id>4f0c363778ec0</com_id>
+        <con_com_id>11</con_com_id>
+        <prod_com_id>4</prod_com_id>
+        <user_id>9</user_id>
+        <com_number>18</com_number>
+        <prod_name>tamarin</prod_name>
+        <unit_measure>kg</unit_measure>
+        <quantity>100.00</quantity>
+        <quality>tamarin décourtiqué propre</quality>
+        <price>250.00</price>
+        <currency>CFA</currency>
+        <ts_date_entered>2012-01-10 12:53:07</ts_date_entered>
+        <ts_date_delivered>2012-01-10 13:03:31</ts_date_delivered>
+        <contact_fname>Moutian</contact_fname>
+        <contact_lname>Keita</contact_lname>
+        <contact_tel>78437947</contact_tel>
+        <village>sira</village>
+        <zone>mafouné</zone>
+    </market_store>
+    <market_store>
+        <store_id>48</store_id>
+        <com_id>4f0d6187f0c04</com_id>
+        <con_com_id>7</con_com_id>
+        <prod_com_id>3</prod_com_id>
+        <user_id>1</user_id>
+        <com_number>1</com_number>
+        <prod_name>Graine de nere</prod_name>
+        <unit_measure>Kg</unit_measure>
+        <quantity>470.00</quantity>
+        <quality>Bien</quality>
+        <price>425.00</price>
+        <currency>cfa</currency>
+        <ts_date_entered>2011-08-10 23:31:39</ts_date_entered>
+        <ts_date_delivered>2012-01-12 14:47:49</ts_date_delivered>
+        <contact_fname>Ives</contact_fname>
+        <contact_lname>Diarra</contact_lname>
+        <contact_tel>7899103</contact_tel>
+        <contact_address></contact_address>
+        <village>kona</village>
+        <zone>mafoune</zone>
+    </market_store>
+    <market_store>
+        <store_id>49</store_id>
+        <com_id>4f0d6187f0c04</com_id>
+        <con_com_id>18</con_com_id>
+        <prod_com_id>1</prod_com_id>
+        <user_id>1</user_id>
+        <com_number>1</com_number>
+        <prod_name>amande de karite</prod_name>
+        <unit_measure>kg</unit_measure>
+        <quantity>1000.00</quantity>
+        <quality>Bien</quality>
+        <price>200.00</price>
+        <currency>CFA</currency>
+        <ts_date_entered>2012-01-11 10:10:46</ts_date_entered>
+        <ts_date_delivered>2012-01-12 14:47:49</ts_date_delivered>
+        <contact_fname>Tandin</contact_fname>
+        <contact_lname>Dembele</contact_lname>
+        <contact_tel>7899103</contact_tel>
+        <village>kona</village>
+        <zone>mafoune</zone>
+    </market_store>
+    <market_store>
+        <store_id>50</store_id>
+        <com_id>4f0f4e537f7e3</com_id>
+        <con_com_id>13</con_com_id>
+        <prod_com_id>5</prod_com_id>
+        <user_id>1</user_id>
+        <com_number>2</com_number>
+        <prod_name>Miel liquide</prod_name>
+        <unit_measure>L</unit_measure>
+        <quantity>200.00</quantity>
+        <quality>miel non brule</quality>
+        <price>2000.00</price>
+        <currency>cfa</currency>
+        <ts_date_entered>2011-08-10 23:25:39</ts_date_entered>
+        <ts_date_delivered>2012-01-12 21:23:25</ts_date_delivered>
+        <contact_fname>Zakary</contact_fname>
+        <contact_lname>Diarra</contact_lname>
+        <contact_tel>78571299</contact_tel>
+        <contact_address></contact_address>
+        <village>bokuy-mankoina</village>
+        <zone>mafounde</zone>
+    </market_store>
+    <market_store>
+        <store_id>51</store_id>
+        <com_id>4f0f4e537f7e3</com_id>
+        <con_com_id>3</con_com_id>
+        <prod_com_id>5</prod_com_id>
+        <user_id>1</user_id>
+        <com_number>2</com_number>
+        <prod_name>miel liquide</prod_name>
+        <unit_measure>kg</unit_measure>
+        <quantity>60.00</quantity>
+        <quality>Miel  non brulé et pressé avec les soins d'hygiéne alimentaire</quality>
+        <price>2000.00</price>
+        <currency>CFA</currency>
+        <ts_date_entered>2011-12-18 18:23:40</ts_date_entered>
+        <ts_date_delivered>2012-01-12 21:23:25</ts_date_delivered>
+        <contact_fname>Sabere</contact_fname>
+        <contact_lname>Diarra</contact_lname>
+        <village>bambara</village>
+        <zone>koula</zone>
+    </market_store>
+    <market_store>
+        <store_id>52</store_id>
+        <com_id>4f0ecb2bb3444</com_id>
+        <con_com_id>11</con_com_id>
+        <prod_com_id>2</prod_com_id>
+        <user_id>6</user_id>
+        <com_number>5</com_number>
+        <prod_name>beurre de karite</prod_name>
+        <unit_measure>kg</unit_measure>
+        <quantity>40.00</quantity>
+        <quality>beurre issu des amandes ebouillantées</quality>
+        <price>1000.00</price>
+        <currency>CFA</currency>
+        <ts_date_entered>2012-01-12 11:59:40</ts_date_entered>
+        <ts_date_delivered>2012-01-12 14:08:26</ts_date_delivered>
+        <contact_fname>moutian</contact_fname>
+        <contact_lname>keita</contact_lname>
+        <contact_tel>78437947</contact_tel>
+        <village>sira</village>
+        <zone>mafouné</zone>
+    </market_store>
+    <market_store>
+        <store_id>53</store_id>
+        <com_id>4f0ecb2bb3444</com_id>
+        <con_com_id>11</con_com_id>
+        <prod_com_id>4</prod_com_id>
+        <user_id>6</user_id>
+        <com_number>5</com_number>
+        <prod_name>tamarin</prod_name>
+        <unit_measure>kg</unit_measure>
+        <quantity>100.00</quantity>
+        <quality>tamarin décortiqué propre</quality>
+        <price>250.00</price>
+        <currency>CFA</currency>
+        <ts_date_entered>2012-01-08 00:05:39</ts_date_entered>
+        <ts_date_delivered>2012-01-12 14:08:26</ts_date_delivered>
+        <contact_fname>moutian</contact_fname>
+        <contact_lname> keita</contact_lname>
+        <contact_tel>78437947</contact_tel>
+        <village>sira</village>
+        <zone>mafouné</zone>
+    </market_store>
+    <market_store>
+        <store_id>54</store_id>
+        <com_id>4f0ecb2bb3444</com_id>
+        <con_com_id>7</con_com_id>
+        <prod_com_id>1</prod_com_id>
+        <user_id>6</user_id>
+        <com_number>5</com_number>
+        <prod_name>Amande de karite</prod_name>
+        <unit_measure>kg</unit_measure>
+        <quantity>3000.00</quantity>
+        <quality>amande fumée</quality>
+        <price>125.00</price>
+        <currency>CFA</currency>
+        <ts_date_entered>2012-01-08 00:09:37</ts_date_entered>
+        <ts_date_delivered>2012-01-12 14:08:26</ts_date_delivered>
+        <contact_fname>fidel</contact_fname>
+        <contact_lname>koné</contact_lname>
+        <contact_tel>77669626</contact_tel>
+        <village>kona</village>
+        <zone>mandiakuy</zone>
+    </market_store>
+    <market_store>
+        <store_id>55</store_id>
+        <com_id>4f0ecb2bb3444</com_id>
+        <con_com_id>7</con_com_id>
+        <prod_com_id>1</prod_com_id>
+        <user_id>6</user_id>
+        <com_number>5</com_number>
+        <prod_name>beurre de karite</prod_name>
+        <unit_measure>kg</unit_measure>
+        <quantity>100.00</quantity>
+        <quality>beurre issu des amandes ebouillantées</quality>
+        <price>1000.00</price>
+        <currency>CFA</currency>
+        <ts_date_entered>2012-01-08 00:11:47</ts_date_entered>
+        <ts_date_delivered>2012-01-12 14:08:26</ts_date_delivered>
+        <contact_fname>fidel</contact_fname>
+        <contact_lname>koné</contact_lname>
+        <contact_tel>77669626</contact_tel>
+        <village>kona</village>
+        <zone>mandiakuy</zone>
+    </market_store>
+    <market_store>
+        <store_id>56</store_id>
+        <com_id>4f0ecb2bb3444</com_id>
+        <con_com_id>14</con_com_id>
+        <prod_com_id>1</prod_com_id>
+        <user_id>6</user_id>
+        <com_number>5</com_number>
+        <prod_name>amande de karite</prod_name>
+        <unit_measure>kg</unit_measure>
+        <quantity>900.00</quantity>
+        <quality>amande ebouillante</quality>
+        <price>250.00</price>
+        <currency>CFA</currency>
+        <ts_date_entered>2012-01-12 11:32:28</ts_date_entered>
+        <ts_date_delivered>2012-01-12 14:08:26</ts_date_delivered>
+        <contact_fname>mazankuy</contact_fname>
+        <contact_lname>diarra</contact_lname>
+        <contact_tel>70549489</contact_tel>
+        <village>souté</village>
+        <zone>mafouné</zone>
+    </market_store>
+    <market_store>
+        <store_id>57</store_id>
+        <com_id>4f0ecb2bb3444</com_id>
+        <con_com_id>14</con_com_id>
+        <prod_com_id>2</prod_com_id>
+        <user_id>6</user_id>
+        <com_number>5</com_number>
+        <prod_name>beurre de karite</prod_name>
+        <unit_measure>kg</unit_measure>
+        <quantity>800.00</quantity>
+        <quality>beurre issu des amandes fumées</quality>
+        <price>600.00</price>
+        <currency>CFA</currency>
+        <ts_date_entered>2012-01-12 11:34:31</ts_date_entered>
+        <ts_date_delivered>2012-01-12 14:08:26</ts_date_delivered>
+        <contact_fname>mazankuy</contact_fname>
+        <contact_lname>diarra</contact_lname>
+        <contact_tel>70549489</contact_tel>
+        <village>souté</village>
+        <zone>mafouné</zone>
+    </market_store>
+    <market_store>
+        <store_id>58</store_id>
+        <com_id>4f279c3e69069</com_id>
+        <con_com_id>11</con_com_id>
+        <prod_com_id>2</prod_com_id>
+        <user_id>9</user_id>
+        <com_number>2</com_number>
+        <prod_name>beurre de karite</prod_name>
+        <unit_measure>kg</unit_measure>
+        <quantity>40.00</quantity>
+        <quality>beurre issu des amandes ebouillantées</quality>
+        <price>1000.00</price>
+        <currency>CFA</currency>
+        <ts_date_entered>2012-01-10 12:52:07</ts_date_entered>
+        <ts_date_delivered>2012-01-31 07:48:54</ts_date_delivered>
+        <contact_fname>Moutian</contact_fname>
+        <contact_lname>Keita</contact_lname>
+        <contact_tel>78437947</contact_tel>
+        <village>Sira</village>
+        <zone>Mafouné</zone>
+    </market_store>
+    <market_store>
+        <store_id>59</store_id>
+        <com_id>4f279c3e69069</com_id>
+        <con_com_id>11</con_com_id>
+        <prod_com_id>4</prod_com_id>
+        <user_id>9</user_id>
+        <com_number>2</com_number>
+        <prod_name>tamarin</prod_name>
+        <unit_measure>kg</unit_measure>
+        <quantity>100.00</quantity>
+        <quality>tamarin décourtiqué propre</quality>
+        <price>250.00</price>
+        <currency>CFA</currency>
+        <ts_date_entered>2012-01-10 12:53:07</ts_date_entered>
+        <ts_date_delivered>2012-01-31 07:48:54</ts_date_delivered>
+        <contact_fname>Moutian</contact_fname>
+        <contact_lname>Keita</contact_lname>
+        <contact_tel>78437947</contact_tel>
+        <village>Sira</village>
+        <zone>Mafouné</zone>
+    </market_store>
+    <market_store>
+        <store_id>60</store_id>
+        <com_id>4f279d266a1c2</com_id>
+        <con_com_id>11</con_com_id>
+        <prod_com_id>2</prod_com_id>
+        <user_id>9</user_id>
+        <com_number>23</com_number>
+        <prod_name>beurre de karite</prod_name>
+        <unit_measure>kg</unit_measure>
+        <quantity>40.00</quantity>
+        <quality>beurre issu des amandes ebouillantées</quality>
+        <price>1000.00</price>
+        <currency>CFA</currency>
+        <ts_date_entered>2012-01-10 12:52:07</ts_date_entered>
+        <ts_date_delivered>2012-01-31 07:50:20</ts_date_delivered>
+        <contact_fname>Moutian</contact_fname>
+        <contact_lname>Keita</contact_lname>
+        <contact_tel>78437947</contact_tel>
+        <village>Sira</village>
+        <zone>Mafouné</zone>
+    </market_store>
+    <market_store>
+        <store_id>61</store_id>
+        <com_id>4f279d266a1c2</com_id>
+        <con_com_id>11</con_com_id>
+        <prod_com_id>4</prod_com_id>
+        <user_id>9</user_id>
+        <com_number>23</com_number>
+        <prod_name>tamarin</prod_name>
+        <unit_measure>kg</unit_measure>
+        <quantity>100.00</quantity>
+        <quality>tamarin décourtiqué propre</quality>
+        <price>250.00</price>
+        <currency>CFA</currency>
+        <ts_date_entered>2012-01-10 12:53:07</ts_date_entered>
+        <ts_date_delivered>2012-01-31 07:50:20</ts_date_delivered>
+        <contact_fname>Moutian</contact_fname>
+        <contact_lname>Keita</contact_lname>
+        <contact_tel>78437947</contact_tel>
+        <village>Sira</village>
+        <zone>Mafouné</zone>
+    </market_store>
+    <market_store>
+        <store_id>62</store_id>
+        <com_id>4f279d266a1c2</com_id>
+        <con_com_id>16</con_com_id>
+        <prod_com_id>5</prod_com_id>
+        <user_id>9</user_id>
+        <com_number>23</com_number>
+        <prod_name>Miel liquide</prod_name>
+        <unit_measure>L</unit_measure>
+        <quantity>12.00</quantity>
+        <quality>Miel non brulé et pressé avec les soins d’hygiène alimentaire</quality>
+        <price>1230.00</price>
+        <currency>CFA</currency>
+        <ts_date_entered>2012-01-31 07:49:38</ts_date_entered>
+        <ts_date_delivered>2012-01-31 07:50:20</ts_date_delivered>
+        <contact_fname>Birawé</contact_fname>
+        <contact_lname>Domboua</contact_lname>
+        <contact_tel>78 13 86 71</contact_tel>
+        <village>Samoukuy</village>
+        <zone>Mafouné</zone>
+    </market_store>
+    <market_store>
+        <store_id>63</store_id>
+        <com_id>4f2918bc6a7af</com_id>
+        <con_com_id>5</con_com_id>
+        <prod_com_id>4</prod_com_id>
+        <user_id>6</user_id>
+        <com_number>6</com_number>
+        <prod_name>Tamarin</prod_name>
+        <unit_measure>Kg</unit_measure>
+        <quantity>450.00</quantity>
+        <quality>Tamarin mur décortiqué</quality>
+        <price>250.00</price>
+        <currency>CFA</currency>
+        <ts_date_entered>2012-02-01 10:11:47</ts_date_entered>
+        <ts_date_delivered>2012-02-01 10:54:57</ts_date_delivered>
+        <contact_fname>Gérard</contact_fname>
+        <contact_lname>Traoré</contact_lname>
+        <contact_tel>77 27 42 48</contact_tel>
+        <village>Tieblenikuy</village>
+        <zone>Koula</zone>
+    </market_store>
+    <market_store>
+        <store_id>64</store_id>
+        <com_id>4f2918bc6a7af</com_id>
+        <con_com_id>6</con_com_id>
+        <prod_com_id>4</prod_com_id>
+        <user_id>6</user_id>
+        <com_number>6</com_number>
+        <prod_name>Tamarin</prod_name>
+        <unit_measure>Kg</unit_measure>
+        <quantity>200.00</quantity>
+        <quality>Tamarin mur décortiqué</quality>
+        <price>250.00</price>
+        <currency>CFA</currency>
+        <ts_date_entered>2012-02-01 10:12:54</ts_date_entered>
+        <ts_date_delivered>2012-02-01 10:54:57</ts_date_delivered>
+        <contact_fname>Missa</contact_fname>
+        <contact_lname>Kamaté</contact_lname>
+        <contact_tel>78 18 05 49</contact_tel>
+        <village>Pakan Bobo</village>
+        <zone>Koula</zone>
+    </market_store>
+    <market_store>
+        <store_id>65</store_id>
+        <com_id>4f2918bc6a7af</com_id>
+        <con_com_id>1</con_com_id>
+        <prod_com_id>4</prod_com_id>
+        <user_id>6</user_id>
+        <com_number>6</com_number>
+        <prod_name>Tamarin</prod_name>
+        <unit_measure>Kg</unit_measure>
+        <quantity>450.00</quantity>
+        <quality>Tamarin mur décortiqué</quality>
+        <price>250.00</price>
+        <currency>CFA</currency>
+        <ts_date_entered>2012-02-01 10:13:31</ts_date_entered>
+        <ts_date_delivered>2012-02-01 10:54:57</ts_date_delivered>
+        <contact_fname>Andia</contact_fname>
+        <contact_lname>Kalakodio</contact_lname>
+        <contact_tel>78 58 35 29</contact_tel>
+        <village>Siradié</village>
+        <zone>Lanfiala</zone>
+    </market_store>
+    <market_store>
+        <store_id>66</store_id>
+        <com_id>4f2918bc6a7af</com_id>
+        <con_com_id>11</con_com_id>
+        <prod_com_id>2</prod_com_id>
+        <user_id>6</user_id>
+        <com_number>6</com_number>
+        <prod_name>Beurre de karite</prod_name>
+        <unit_measure>Kg</unit_measure>
+        <quantity>450.00</quantity>
+        <quality>Beurre issu des amandes ébouillantées</quality>
+        <price>1000.00</price>
+        <currency>CFA</currency>
+        <ts_date_entered>2012-02-01 10:15:15</ts_date_entered>
+        <ts_date_delivered>2012-02-01 10:54:57</ts_date_delivered>
+        <contact_fname>Moutian</contact_fname>
+        <contact_lname>Keita</contact_lname>
+        <contact_tel>78437947</contact_tel>
+        <village>Sira</village>
+        <zone>Mafouné</zone>
+    </market_store>
+    <market_store>
+        <store_id>67</store_id>
+        <com_id>4f2918bc6a7af</com_id>
+        <con_com_id>15</con_com_id>
+        <prod_com_id>2</prod_com_id>
+        <user_id>6</user_id>
+        <com_number>6</com_number>
+        <prod_name>Beurre de karite</prod_name>
+        <unit_measure>Kg</unit_measure>
+        <quantity>200.00</quantity>
+        <quality>Beurre issu des amandes ébouillantées</quality>
+        <price>1000.00</price>
+        <currency>CFA</currency>
+        <ts_date_entered>2012-02-01 00:00:00</ts_date_entered>
+        <ts_date_delivered>2012-02-01 10:54:57</ts_date_delivered>
+        <contact_fname>Iréné</contact_fname>
+        <contact_lname>Keita</contact_lname>
+        <contact_tel>78 25 84 13</contact_tel>
+        <village>Sanda</village>
+        <zone>Mafouné</zone>
+    </market_store>
+    <market_store>
+        <store_id>68</store_id>
+        <com_id>4f2918bc6a7af</com_id>
+        <con_com_id>7</con_com_id>
+        <prod_com_id>3</prod_com_id>
+        <user_id>6</user_id>
+        <com_number>6</com_number>
+        <prod_name>Graine de nere</prod_name>
+        <unit_measure>Kg</unit_measure>
+        <quantity>120.00</quantity>
+        <quality>Graine propre</quality>
+        <price>450.00</price>
+        <currency>CFA</currency>
+        <ts_date_entered>2012-02-01 10:18:27</ts_date_entered>
+        <ts_date_delivered>2012-02-01 10:54:57</ts_date_delivered>
+        <contact_fname>Fidel</contact_fname>
+        <contact_lname>Koné</contact_lname>
+        <contact_tel>77 66 96 26</contact_tel>
+        <contact_address></contact_address>
+        <village>Kona</village>
+        <zone>Mandiakuy</zone>
+    </market_store>
+    <market_store>
+        <store_id>69</store_id>
+        <com_id>4f44d24fd6dae</com_id>
+        <con_com_id>13</con_com_id>
+        <prod_com_id>5</prod_com_id>
+        <user_id>6</user_id>
+        <com_number>7</com_number>
+        <prod_name>Miel liquide</prod_name>
+        <unit_measure>L</unit_measure>
+        <quantity>60.00</quantity>
+        <quality>Miel non brulé et pressé avec les soins d’hygiène alimentaire</quality>
+        <price>2000.00</price>
+        <currency>CFA</currency>
+        <ts_date_entered>2012-02-22 11:31:28</ts_date_entered>
+        <ts_date_delivered>2012-02-22 11:50:15</ts_date_delivered>
+        <contact_fname>Zakary</contact_fname>
+        <contact_lname>Diarra</contact_lname>
+        <contact_tel>78 57 12 98</contact_tel>
+        <village>Bokuy- Mankoïna</village>
+        <zone>Mafouné</zone>
+    </market_store>
+</proj_V_webInt_wwv7XXWG>
