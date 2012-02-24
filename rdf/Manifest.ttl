@@ -10,4 +10,5 @@
 	lib:source <http://purl.org/collections/w4ra/radiomarche/> ;
 	owl:imports
 		<market_data.ttl>,
-		<rm-schema.ttl>.
+		<rm-schema.ttl>,
+		<alingments.ttl>.
