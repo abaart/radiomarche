@@ -24,7 +24,11 @@ radiomarche:Communique
 radiomarche:Offering
 	a rdfs:Class ;
 	rdfs:label "Offering" .
-
+	
+radiomarche:Product
+	a rdfs:Class ;
+	rdfs:label "Product type" 
+	
 radiomarche:Person
 	a rdfs:Class ;
 	rdfs:label "Person" .
@@ -33,7 +37,7 @@ radiomarche:in_zone
 	a rdf:Property ;
 	rdfs:domain radiomarche:Village ;
 	rdfs:label "in zone" ;
-	rdfs:range Zone .
+	rdfs:range radiomarche:Zone .
 	
 radiomarche:com_id
 	a rdf:Property ;
