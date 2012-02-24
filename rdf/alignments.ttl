@@ -22,7 +22,7 @@ radiomarche:zone_mafounde skos:exactMatch radiomarche:zone_Mafoune .
 radiomarche:zone_Lanfiala skos:exactMatch dbpedia:Lanfiala .
 radiomarche:zone_Lanfiala skos:exactMatch <http://sws.geonames.org/6910181/about.rdf> .
 
-radiomarche:zone_Koula skos:exactMatch <http://dbpedia.org/resource/Koula,_Ségou> .
+radiomarche:zone_Koula skos:exactMatch <http://dbpedia.org/resource/Koula,_Segou> .
 radiomarche:zone_Koula skos:exactMatch <http://sws.geonames.org/2454544/about.rdf> .
 
 radiomarche:zone_diora skos:exactMatch <http://dbpedia.org/resource/Diora,_Mali> .
