@@ -16,25 +16,25 @@
 radiomarche:zone_Mandiakuy skos:exactMatch dbpedia:Mandiakuy .
 
 radiomarche:zone_Mafoune skos:exactMatch dbpedia:Mafoune .
-radiomarche:zone_Mafoune skos:exactMatch <http://sws.geonames.org/2453944/about.rdf> .
+radiomarche:zone_Mafoune skos:exactMatch <http://sws.geonames.org/2453944/> .
 radiomarche:zone_mafounde skos:exactMatch radiomarche:zone_Mafoune .
 
 radiomarche:zone_Lanfiala skos:exactMatch dbpedia:Lanfiala .
-radiomarche:zone_Lanfiala skos:exactMatch <http://sws.geonames.org/6910181/about.rdf> .
+radiomarche:zone_Lanfiala skos:exactMatch <http://sws.geonames.org/6910181/> .
 
 radiomarche:zone_Koula skos:exactMatch <http://dbpedia.org/resource/Koula,_Segou> .
-radiomarche:zone_Koula skos:exactMatch <http://sws.geonames.org/2454544/about.rdf> .
+radiomarche:zone_Koula skos:exactMatch <http://sws.geonames.org/2454544/> .
 
 radiomarche:zone_diora skos:exactMatch <http://dbpedia.org/resource/Diora,_Mali> .
 
 
 # ------ Alignments of Villages to Geonames/DBPedia
 
-radiomarche:village_soute skos:exactMatch <http://sws.geonames.org/2450568/about.rdf> .
+radiomarche:village_soute skos:exactMatch <http://sws.geonames.org/2450568/> .
 
-radiomarche:village_Sira skos:exactMatch <http://sws.geonames.org/2451068/about.rdf> .
+radiomarche:village_Sira skos:exactMatch <http://sws.geonames.org/2451068/> .
 
-radiomarche:village_Sanda skos:exactMatch <http://sws.geonames.org/2451689/about.rdf> .
+radiomarche:village_Sanda skos:exactMatch <http://sws.geonames.org/2451689/> .
 
 # ------ Alignments of Product types to Geonames/DBPedia
 radiomarche:Beurre_de_karite skos:exactMatch dbpedia:Shea_butter .
