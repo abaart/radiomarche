@@ -1,0 +1,44 @@
+@prefix    skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix    rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix     rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix      dc: <http://purl.org/dc/elements/1.1/> .
+@prefix    rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix     rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+@prefix radiomarche: <http://purl.org/collections/w4ra/radiomarche/> .
+@prefix dbpedia: <http://dbpedia.org/resource/> .
+
+
+
+# ----- Alignments of Zones to Geonames/DBPedia
+
+radiomarche:zone_Mandiakuy skos:exactMatch dbpedia:Mandiakuy .
+
+radiomarche:zone_Mafoune skos:exactMatch dbpedia:Mafoune .
+radiomarche:zone_Mafoune skos:exactMatch <http://sws.geonames.org/2453944/about.rdf> .
+radiomarche:zone_mafounde skos:exactMatch radiomarche:zone_Mafoune .
+
+radiomarche:zone_Lanfiala skos:exactMatch dbpedia:Lanfiala .
+radiomarche:zone_Lanfiala skos:exactMatch <http://sws.geonames.org/6910181/about.rdf> .
+
+radiomarche:zone_Koula skos:exactMatch dbpedia:Koula,_Ségou .
+radiomarche:zone_Koula skos:exactMatch <http://sws.geonames.org/2454544/about.rdf> .
+
+radiomarche:zone_diora skos:exactMatch dbpedia:Diora,_Mali .
+
+
+# ------ Alignments of Villages to Geonames/DBPedia
+
+radiomarche:village_soute skos:exactMatch <http://sws.geonames.org/2450568/about.rdf> .
+
+radiomarche:village_Sira skos:exactMatch <http://sws.geonames.org/2451068/about.rdf> .
+
+radiomarche:village_Sanda skos:exactMatch <http://sws.geonames.org/2451689/about.rdf> .
+
+# ------ Alignments of Product types to Geonames/DBPedia
+radiomarche:Beurre_de_karite skos:exactMatch dbpedia:Shea_butter .
+radiomarche:Miel_liquide skos:exactMatch dbpedia:Honey .
+radiomarche:Tamarin skos:exactMatch dbpedia:Tamarind .
+
+
