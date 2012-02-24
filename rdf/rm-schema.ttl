@@ -27,7 +27,7 @@ radiomarche:Offering
 	
 radiomarche:Product
 	a rdfs:Class ;
-	rdfs:label "Product type" 
+	rdfs:label "Product type" .
 	
 radiomarche:Person
 	a rdfs:Class ;
