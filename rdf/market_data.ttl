@@ -2,7 +2,7 @@
 @prefix  rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix   rm: <http://purl.org/collections/w4ra/radiomarche/> .
 
-# Named toplevel resources (91)
+# Named toplevel resources (86)
 
 rm:Andia_Kalakodio
 	a rm:Person ;
@@ -49,8 +49,8 @@ rm:Ives_Diarra
 	rm:contact_fname "Ives" ;
 	rm:contact_lname "Diarra" ;
 	rm:contact_tel "7899103" ;
-	rm:village rm:village_kona ;
-	rm:zone rm:zone_mafoune .
+	rm:village rm:village_Kona ;
+	rm:zone rm:zone_Mafoune .
 
 rm:Missa_Kamate
 	a rm:Person ;
@@ -65,18 +65,16 @@ rm:Moutian_Keita
 	rm:contact_fname "Moutian" ;
 	rm:contact_lname "Keita" ;
 	rm:contact_tel "78437947" ;
-	rm:village rm:village_Sira ,
-		   rm:village_sira ;
-	rm:zone rm:zone_Mafoune ,
-		rm:zone_mafoune .
+	rm:village rm:village_Sira ;
+	rm:zone rm:zone_Mafoune .
 
 rm:Tandin_Dembele
 	a rm:Person ;
 	rm:contact_fname "Tandin" ;
 	rm:contact_lname "Dembele" ;
 	rm:contact_tel "7899103" ;
-	rm:village rm:village_kona ;
-	rm:zone rm:zone_mafoune .
+	rm:village rm:village_Kona ;
+	rm:zone rm:zone_Mafoune .
 
 rm:Zakary_Diarra
 	a rm:Person ;
@@ -89,8 +87,7 @@ rm:Zakary_Diarra
 		   rm:village_bokuy-mankoina ,
 		   rm:village_bokuy_mankoina ;
 	rm:zone rm:zone_Mafoune ,
-		rm:zone_mafounde ,
-		rm:zone_mafoune .
+		rm:zone_mafounde .
 
 rm:communique_4ef066fd51ef2
 	a rm:Communique ;
@@ -198,8 +195,8 @@ rm:fidel_kone
 	rm:contact_fname "fidel" ;
 	rm:contact_lname "koné" ;
 	rm:contact_tel "77669626" ;
-	rm:village rm:village_kona ;
-	rm:zone rm:zone_mandiakuy .
+	rm:village rm:village_Kona ;
+	rm:zone rm:zone_Mandiakuy .
 
 rm:ives_diarra
 	a rm:Person ;
@@ -217,7 +214,7 @@ rm:mazankuy_diarra
 	rm:contact_lname "diarra" ;
 	rm:contact_tel "70549489" ;
 	rm:village rm:village_soute ;
-	rm:zone rm:zone_mafoune .
+	rm:zone rm:zone_Mafoune .
 
 rm:moutian_keita
 	a rm:Person ;
@@ -225,8 +222,8 @@ rm:moutian_keita
 	rm:contact_lname " keita" ,
 			 "keita" ;
 	rm:contact_tel "78437947" ;
-	rm:village rm:village_sira ;
-	rm:zone rm:zone_mafoune .
+	rm:village rm:village_Sira ;
+	rm:zone rm:zone_Mafoune .
 
 rm:offering_1
 	a rm:Offering ;
@@ -418,7 +415,7 @@ rm:offering_51
 	rm:unit_measure "kg" ;
 	rm:user_id "1" ;
 	rm:village rm:village_bambara ;
-	rm:zone rm:zone_koula .
+	rm:zone rm:zone_Koula .
 
 rm:offering_52
 	a rm:Offering ;
@@ -800,14 +797,15 @@ rm:product-tamarin
 rm:village_Bokuy-_Mankoina
 	a rm:Village ;
 	rm:in_zone rm:zone_Mafoune ,
-		   rm:zone_mafounde ,
-		   rm:zone_mafoune ;
+		   rm:zone_mafounde ;
 	rdfs:label "Bokuy- Mankoïna" .
 
 rm:village_Kona
 	a rm:Village ;
-	rm:in_zone rm:zone_Mandiakuy ;
-	rdfs:label "Kona" .
+	rm:in_zone rm:zone_Mafoune ,
+		   rm:zone_Mandiakuy ;
+	rdfs:label "Kona" ,
+		   "kona" .
 
 rm:village_Pakan_Bobo
 	a rm:Village ;
@@ -826,9 +824,9 @@ rm:village_Sanda
 
 rm:village_Sira
 	a rm:Village ;
-	rm:in_zone rm:zone_Mafoune ,
-		   rm:zone_mafoune ;
-	rdfs:label "Sira" .
+	rm:in_zone rm:zone_Mafoune ;
+	rdfs:label "Sira" ,
+		   "sira" .
 
 rm:village_Siradie
 	a rm:Village ;
@@ -842,21 +840,19 @@ rm:village_Tieblenikuy
 
 rm:village_bambara
 	a rm:Village ;
-	rm:in_zone rm:zone_koula ;
+	rm:in_zone rm:zone_Koula ;
 	rdfs:label "bambara" .
 
 rm:village_bokuy-mankoina
 	a rm:Village ;
 	rm:in_zone rm:zone_Mafoune ,
-		   rm:zone_mafounde ,
-		   rm:zone_mafoune ;
+		   rm:zone_mafounde ;
 	rdfs:label "bokuy-mankoina" .
 
 rm:village_bokuy_mankoina
 	a rm:Village ;
 	rm:in_zone rm:zone_Mafoune ,
-		   rm:zone_mafounde ,
-		   rm:zone_mafoune ;
+		   rm:zone_mafounde ;
 	rdfs:label "bokuy mankoina" .
 
 rm:village_kinlokuy
@@ -864,21 +860,9 @@ rm:village_kinlokuy
 	rm:in_zone rm:zone_diora ;
 	rdfs:label "kinlokuy" .
 
-rm:village_kona
-	a rm:Village ;
-	rm:in_zone rm:zone_mafoune ,
-		   rm:zone_mandiakuy ;
-	rdfs:label "kona" .
-
-rm:village_sira
-	a rm:Village ;
-	rm:in_zone rm:zone_Mafoune ,
-		   rm:zone_mafoune ;
-	rdfs:label "sira" .
-
 rm:village_soute
 	a rm:Village ;
-	rm:in_zone rm:zone_mafoune ;
+	rm:in_zone rm:zone_Mafoune ;
 	rdfs:label "souté" .
 
 rm:zakary_diarra
@@ -887,41 +871,32 @@ rm:zakary_diarra
 	rm:contact_lname "diarra" ;
 	rm:contact_tel "78571298" ;
 	rm:village rm:village_bokuy_mankoina ;
-	rm:zone rm:zone_mafoune .
+	rm:zone rm:zone_Mafoune .
 
 rm:zone_Koula
-	a rm:Zone ,
-	  "Koula" .
+	a rm:Zone ;
+	rdfs:label "Koula" ,
+		   "koula" .
 
 rm:zone_Lanfiala
-	a rm:Zone ,
-	  "Lanfiala" .
+	a rm:Zone ;
+	rdfs:label "Lanfiala" .
 
 rm:zone_Mafoune
-	a rm:Zone ,
-	  "Mafouné" .
+	a rm:Zone ;
+	rdfs:label "Mafouné" ,
+		   "mafoune" ,
+		   "mafouné" .
 
 rm:zone_Mandiakuy
-	a rm:Zone ,
-	  "Mandiakuy" .
+	a rm:Zone ;
+	rdfs:label "Mandiakuy" ,
+		   "mandiakuy" .
 
 rm:zone_diora
-	a rm:Zone ,
-	  "diora" .
-
-rm:zone_koula
-	a rm:Zone ,
-	  "koula" .
+	a rm:Zone ;
+	rdfs:label "diora" .
 
 rm:zone_mafounde
-	a rm:Zone ,
-	  "mafounde" .
-
-rm:zone_mafoune
-	a rm:Zone ,
-	  "mafoune" ,
-	  "mafouné" .
-
-rm:zone_mandiakuy
-	a rm:Zone ,
-	  "mandiakuy" .
+	a rm:Zone ;
+	rdfs:label "mafounde" .
