@@ -9,6 +9,14 @@
 
 # Named toplevel resources (26)
 
+radiomarche:Village
+	a rdfs:Class ;
+	rdfs:label "Village" .
+	
+radiomarche:Zone
+	a rdfs:Class ;
+	rdfs:label "Zone" .
+	
 radiomarche:Communique
 	a rdfs:Class ;
 	rdfs:label "Communique" .
@@ -20,7 +28,13 @@ radiomarche:Offering
 radiomarche:Person
 	a rdfs:Class ;
 	rdfs:label "Person" .
-
+	
+radiomarche:in_zone
+	a rdf:Property ;
+	rdfs:domain radiomarche:Village ;
+	rdfs:label "in zone" ;
+	rdfs:range Zone .
+	
 radiomarche:com_id
 	a rdf:Property ;
 	rdfs:domain radiomarche:Communique ;
