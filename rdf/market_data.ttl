@@ -1,8 +1,8 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix  rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix   rm: <http://purl.org/collections/w4ra/radiomarche/> .
+@prefix   rm: <http://purl.org/w4ra/radiomarche/> .
 
-# Named toplevel resources (86)
+# Named toplevel resources (82)
 
 rm:Andia_Kalakodio
 	a rm:Person ;
@@ -233,7 +233,7 @@ rm:offering_1
 	rm:has_contact rm:zakary_diarra ;
 	rm:price "1000.00" ;
 	rm:prod_com_id "9" ;
-	rm:prod_name rm:product-tamarin ;
+	rm:prod_name rm:product-Tamarin ;
 	rm:quality "Tamarin decortique propre" ;
 	rm:quantity "105.00" ;
 	rm:store_id "1" ;
@@ -250,7 +250,7 @@ rm:offering_10
 	rm:has_contact rm:Moutian_Keita ;
 	rm:price "1000.00" ;
 	rm:prod_com_id "2" ;
-	rm:prod_name rm:product-beurre_de_karite ;
+	rm:prod_name rm:product-Beurre_de_karite ;
 	rm:quality "beurre issu des amandes ebouillantées" ;
 	rm:quantity "40.00" ;
 	rm:store_id "10" ;
@@ -267,7 +267,7 @@ rm:offering_11
 	rm:has_contact rm:Moutian_Keita ;
 	rm:price "250.00" ;
 	rm:prod_com_id "4" ;
-	rm:prod_name rm:product-tamarin ;
+	rm:prod_name rm:product-Tamarin ;
 	rm:quality "tamarin décourtiqué propre" ;
 	rm:quantity "100.00" ;
 	rm:store_id "11" ;
@@ -284,7 +284,7 @@ rm:offering_2
 	rm:has_contact rm:ives_diarra ;
 	rm:price "1000.00" ;
 	rm:prod_com_id "2" ;
-	rm:prod_name rm:product-beurre_de_karite ;
+	rm:prod_name rm:product-Beurre_de_karite ;
 	rm:quality "beurre issu des amandes ebouillantées" ;
 	rm:quantity "50.00" ;
 	rm:store_id "2" ;
@@ -301,7 +301,7 @@ rm:offering_3
 	rm:has_contact rm:ives_diarra ;
 	rm:price "750.00" ;
 	rm:prod_com_id "4" ;
-	rm:prod_name rm:product-tamarin ;
+	rm:prod_name rm:product-Tamarin ;
 	rm:quality "tamarin décortiqué propre" ;
 	rm:quantity "900.00" ;
 	rm:store_id "3" ;
@@ -318,7 +318,7 @@ rm:offering_4
 	rm:has_contact rm:ives_diarra ;
 	rm:price "150.00" ;
 	rm:prod_com_id "1" ;
-	rm:prod_name rm:product-amande_de_karite ;
+	rm:prod_name rm:product-Amande_de_karite ;
 	rm:quality "amande ébouillanté" ;
 	rm:quantity "3000.00" ;
 	rm:store_id "4" ;
@@ -353,7 +353,7 @@ rm:offering_49
 	rm:has_contact rm:Tandin_Dembele ;
 	rm:price "200.00" ;
 	rm:prod_com_id "1" ;
-	rm:prod_name rm:product-amande_de_karite ;
+	rm:prod_name rm:product-Amande_de_karite ;
 	rm:quality "Bien" ;
 	rm:quantity "1000.00" ;
 	rm:store_id "49" ;
@@ -370,7 +370,7 @@ rm:offering_5
 	rm:has_contact rm:Zakary_Diarra ;
 	rm:price "1000.00" ;
 	rm:prod_com_id "4" ;
-	rm:prod_name rm:product-tamarin ;
+	rm:prod_name rm:product-Tamarin ;
 	rm:quality "Tamarin decortique propre" ;
 	rm:quantity "105.00" ;
 	rm:store_id "5" ;
@@ -406,7 +406,7 @@ rm:offering_51
 	rm:has_communique rm:communique_4f0f4e537f7e3 ;
 	rm:price "2000.00" ;
 	rm:prod_com_id "5" ;
-	rm:prod_name rm:product-miel_liquide ;
+	rm:prod_name rm:product-Miel_liquide ;
 	rm:quality "Miel  non brulé et pressé avec les soins d'hygiéne alimentaire" ;
 	rm:quantity "60.00" ;
 	rm:store_id "51" ;
@@ -425,7 +425,7 @@ rm:offering_52
 	rm:has_contact rm:moutian_keita ;
 	rm:price "1000.00" ;
 	rm:prod_com_id "2" ;
-	rm:prod_name rm:product-beurre_de_karite ;
+	rm:prod_name rm:product-Beurre_de_karite ;
 	rm:quality "beurre issu des amandes ebouillantées" ;
 	rm:quantity "40.00" ;
 	rm:store_id "52" ;
@@ -442,7 +442,7 @@ rm:offering_53
 	rm:has_contact rm:moutian_keita ;
 	rm:price "250.00" ;
 	rm:prod_com_id "4" ;
-	rm:prod_name rm:product-tamarin ;
+	rm:prod_name rm:product-Tamarin ;
 	rm:quality "tamarin décortiqué propre" ;
 	rm:quantity "100.00" ;
 	rm:store_id "53" ;
@@ -476,7 +476,7 @@ rm:offering_55
 	rm:has_contact rm:fidel_kone ;
 	rm:price "1000.00" ;
 	rm:prod_com_id "1" ;
-	rm:prod_name rm:product-beurre_de_karite ;
+	rm:prod_name rm:product-Beurre_de_karite ;
 	rm:quality "beurre issu des amandes ebouillantées" ;
 	rm:quantity "100.00" ;
 	rm:store_id "55" ;
@@ -493,7 +493,7 @@ rm:offering_56
 	rm:has_contact rm:mazankuy_diarra ;
 	rm:price "250.00" ;
 	rm:prod_com_id "1" ;
-	rm:prod_name rm:product-amande_de_karite ;
+	rm:prod_name rm:product-Amande_de_karite ;
 	rm:quality "amande ebouillante" ;
 	rm:quantity "900.00" ;
 	rm:store_id "56" ;
@@ -510,7 +510,7 @@ rm:offering_57
 	rm:has_contact rm:mazankuy_diarra ;
 	rm:price "600.00" ;
 	rm:prod_com_id "2" ;
-	rm:prod_name rm:product-beurre_de_karite ;
+	rm:prod_name rm:product-Beurre_de_karite ;
 	rm:quality "beurre issu des amandes fumées" ;
 	rm:quantity "800.00" ;
 	rm:store_id "57" ;
@@ -527,7 +527,7 @@ rm:offering_58
 	rm:has_contact rm:Moutian_Keita ;
 	rm:price "1000.00" ;
 	rm:prod_com_id "2" ;
-	rm:prod_name rm:product-beurre_de_karite ;
+	rm:prod_name rm:product-Beurre_de_karite ;
 	rm:quality "beurre issu des amandes ebouillantées" ;
 	rm:quantity "40.00" ;
 	rm:store_id "58" ;
@@ -544,7 +544,7 @@ rm:offering_59
 	rm:has_contact rm:Moutian_Keita ;
 	rm:price "250.00" ;
 	rm:prod_com_id "4" ;
-	rm:prod_name rm:product-tamarin ;
+	rm:prod_name rm:product-Tamarin ;
 	rm:quality "tamarin décourtiqué propre" ;
 	rm:quantity "100.00" ;
 	rm:store_id "59" ;
@@ -561,7 +561,7 @@ rm:offering_60
 	rm:has_contact rm:Moutian_Keita ;
 	rm:price "1000.00" ;
 	rm:prod_com_id "2" ;
-	rm:prod_name rm:product-beurre_de_karite ;
+	rm:prod_name rm:product-Beurre_de_karite ;
 	rm:quality "beurre issu des amandes ebouillantées" ;
 	rm:quantity "40.00" ;
 	rm:store_id "60" ;
@@ -578,7 +578,7 @@ rm:offering_61
 	rm:has_contact rm:Moutian_Keita ;
 	rm:price "250.00" ;
 	rm:prod_com_id "4" ;
-	rm:prod_name rm:product-tamarin ;
+	rm:prod_name rm:product-Tamarin ;
 	rm:quality "tamarin décourtiqué propre" ;
 	rm:quantity "100.00" ;
 	rm:store_id "61" ;
@@ -732,7 +732,7 @@ rm:offering_8
 	rm:has_contact rm:Moutian_Keita ;
 	rm:price "1000.00" ;
 	rm:prod_com_id "2" ;
-	rm:prod_name rm:product-beurre_de_karite ;
+	rm:prod_name rm:product-Beurre_de_karite ;
 	rm:quality "beurre issu des amandes ebouillantées" ;
 	rm:quantity "40.00" ;
 	rm:store_id "8" ;
@@ -749,7 +749,7 @@ rm:offering_9
 	rm:has_contact rm:Moutian_Keita ;
 	rm:price "250.00" ;
 	rm:prod_com_id "4" ;
-	rm:prod_name rm:product-tamarin ;
+	rm:prod_name rm:product-Tamarin ;
 	rm:quality "tamarin décourtiqué propre" ;
 	rm:quantity "100.00" ;
 	rm:store_id "9" ;
@@ -760,11 +760,13 @@ rm:offering_9
 
 rm:product-Amande_de_karite
 	a rm:Product ;
-	rdfs:label "Amande de karite" .
+	rdfs:label "Amande de karite" ,
+		   "amande de karite" .
 
 rm:product-Beurre_de_karite
 	a rm:Product ;
-	rdfs:label "Beurre de karite" .
+	rdfs:label "Beurre de karite" ,
+		   "beurre de karite" .
 
 rm:product-Graine_de_nere
 	a rm:Product ;
@@ -772,27 +774,13 @@ rm:product-Graine_de_nere
 
 rm:product-Miel_liquide
 	a rm:Product ;
-	rdfs:label "Miel liquide" .
+	rdfs:label "Miel liquide" ,
+		   "miel liquide" .
 
 rm:product-Tamarin
 	a rm:Product ;
-	rdfs:label "Tamarin" .
-
-rm:product-amande_de_karite
-	a rm:Product ;
-	rdfs:label "amande de karite" .
-
-rm:product-beurre_de_karite
-	a rm:Product ;
-	rdfs:label "beurre de karite" .
-
-rm:product-miel_liquide
-	a rm:Product ;
-	rdfs:label "miel liquide" .
-
-rm:product-tamarin
-	a rm:Product ;
-	rdfs:label "tamarin" .
+	rdfs:label "Tamarin" ,
+		   "tamarin" .
 
 rm:village_Bokuy-_Mankoina
 	a rm:Village ;
