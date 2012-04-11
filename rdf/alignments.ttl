@@ -6,9 +6,10 @@
 @prefix    rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix     rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 
+
 @prefix radiomarche: <http://purl.org/collections/w4ra/radiomarche/> .
 @prefix dbpedia: <http://dbpedia.org/resource/> .
-
+@prefix agrovoc: <http://aims.fao.org/aos/agrovoc/> .
 
 
 # ----- Alignments of Zones to Geonames/DBPedia
@@ -37,8 +38,18 @@ radiomarche:village_Sira skos:exactMatch <http://sws.geonames.org/2451068/> .
 radiomarche:village_Sanda skos:exactMatch <http://sws.geonames.org/2451689/> .
 
 # ------ Alignments of Product types to Geonames/DBPedia
-radiomarche:Beurre_de_karite skos:exactMatch dbpedia:Shea_butter .
-radiomarche:Miel_liquide skos:exactMatch dbpedia:Honey .
-radiomarche:Tamarin skos:exactMatch dbpedia:Tamarind .
+radiomarche:product-Beurre_de_karite skos:exactMatch dbpedia:Shea_butter .
+radiomarche:product-Miel_liquide skos:exactMatch dbpedia:Honey .
+radiomarche:product-Tamarin skos:exactMatch dbpedia:Tamarind .
+
+#  ------ Alignments of Product types to Agrovoc
+radiomarche:product-Miel_liquide skos:exactMatch agrovoc:c_3652.
+radiomarche:product-Beurre_de_karite skos:exactMatch agrovoc:c_37951.
+radiomarche:product-Amande_de_karite skos:exactMatch agrovoc:c_25505.
+
+# for the next two products, no agrovoc equivalent was found. We do however have the tree or plant related to it
+radiomarche:product-Tamarin skos:related agrovoc:c_7596.
+radiomarche:product-Graine_de_nere skos:related agrovoc:c_33786.
+
 
 
