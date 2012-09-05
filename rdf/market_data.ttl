@@ -2,7 +2,15 @@
 @prefix  rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix   rm: <http://purl.org/collections/w4ra/radiomarche/> .
 
-# Named toplevel resources (82)
+# Named toplevel resources (145)
+
+rm:Abdias_Dabou
+	a rm:Person ;
+	rm:contact_fname "Abdias" ;
+	rm:contact_lname "Dabou" ;
+	rm:contact_tel "78 81 62 15" ;
+	rm:village rm:village_Bankouma ;
+	rm:zone rm:zone_Mandiakuy .
 
 rm:Andia_Kalakodio
 	a rm:Person ;
@@ -24,9 +32,26 @@ rm:Fidel_Kone
 	a rm:Person ;
 	rm:contact_fname "Fidel" ;
 	rm:contact_lname "Koné" ;
-	rm:contact_tel "77 66 96 26" ;
+	rm:contact_tel "77 66 96 26" ,
+		       "77669626" ;
 	rm:village rm:village_Kona ;
 	rm:zone rm:zone_Mandiakuy .
+
+rm:Fidel_kone
+	a rm:Person ;
+	rm:contact_fname "Fidel" ;
+	rm:contact_lname "koné" ;
+	rm:contact_tel "77669626" ;
+	rm:village rm:village_Kona ;
+	rm:zone rm:zone_Mandiakuy .
+
+rm:Gedeon_Keita
+	a rm:Person ;
+	rm:contact_fname "Gédeon" ;
+	rm:contact_lname "Keita" ;
+	rm:contact_tel "78 99 66 85" ;
+	rm:village rm:village_Gnimoukuy ;
+	rm:zone rm:zone_Diora .
 
 rm:Gerard_Traore
 	a rm:Person ;
@@ -34,6 +59,14 @@ rm:Gerard_Traore
 	rm:contact_lname "Traoré" ;
 	rm:contact_tel "77 27 42 48" ;
 	rm:village rm:village_Tieblenikuy ;
+	rm:zone rm:zone_Koula .
+
+rm:Heke_Dembele
+	a rm:Person ;
+	rm:contact_fname "Héké" ;
+	rm:contact_lname "Dembélé" ;
+	rm:contact_tel "76 27 83 91" ;
+	rm:village rm:village_Fifini ;
 	rm:zone rm:zone_Koula .
 
 rm:Irene_Keita
@@ -46,10 +79,32 @@ rm:Irene_Keita
 
 rm:Ives_Diarra
 	a rm:Person ;
-	rm:contact_fname "Ives" ;
+	rm:contact_fname "Ives" ,
+			 "Ives " ;
 	rm:contact_lname "Diarra" ;
-	rm:contact_tel "7899103" ;
-	rm:village rm:village_Kona ;
+	rm:contact_tel "74 63 40 97" ,
+		       "74634097" ,
+		       "7899103" ;
+	rm:village rm:village_Kinlokuy ,
+		   rm:village_Kona ;
+	rm:zone rm:zone_Diora ,
+		rm:zone_Mafoune .
+
+rm:Marc_Dakouo
+	a rm:Person ;
+	rm:contact_fname "Marc" ;
+	rm:contact_lname "Dakouo" ;
+	rm:contact_tel "78 89 31 86" ;
+	rm:village rm:village_Gnanilo ;
+	rm:zone rm:zone_Diora .
+
+rm:Mazankuy_Diarra
+	a rm:Person ;
+	rm:contact_fname "Mazankuy" ;
+	rm:contact_lname "Diarra" ;
+	rm:contact_tel "70 54 94 89" ,
+		       "70549489" ;
+	rm:village rm:village_Soute ;
 	rm:zone rm:zone_Mafoune .
 
 rm:Missa_Kamate
@@ -68,6 +123,14 @@ rm:Moutian_Keita
 	rm:village rm:village_Sira ;
 	rm:zone rm:zone_Mafoune .
 
+rm:Sabere_Diarra
+	a rm:Person ;
+	rm:contact_fname "Saberé" ;
+	rm:contact_lname "Diarra" ;
+	rm:contact_tel "77 15 23 36" ;
+	rm:village rm:village_Bambara ;
+	rm:zone rm:zone_Koula .
+
 rm:Tandin_Dembele
 	a rm:Person ;
 	rm:contact_fname "Tandin" ;
@@ -78,14 +141,16 @@ rm:Tandin_Dembele
 
 rm:Zakary_Diarra
 	a rm:Person ;
-	rm:contact_fname "Zakary" ;
+	rm:contact_fname "Zakary" ,
+			 "Zakary " ;
 	rm:contact_lname "Diarra" ;
 	rm:contact_tel "78 57 12 98" ,
 		       "78571298" ,
 		       "78571299" ;
 	rm:village rm:village_Bokuy-_Mankoina ,
-		   rm:village_bokuy-mankoina ,
-		   rm:village_bokuy_mankoina ;
+		   rm:village_Bokuy_Mankoina ,
+		   rm:village_Bokuy_mankoina ,
+		   rm:village_bokuy-mankoina ;
 	rm:zone rm:zone_Mafoune ,
 		rm:zone_mafounde .
 
@@ -190,47 +255,112 @@ rm:communique_4f44d24fd6dae
 	rm:con_com_id "13" ;
 	rm:has_offering rm:offering_69 .
 
-rm:fidel_kone
-	a rm:Person ;
-	rm:contact_fname "fidel" ;
-	rm:contact_lname "koné" ;
-	rm:contact_tel "77669626" ;
-	rm:village rm:village_Kona ;
-	rm:zone rm:zone_Mandiakuy .
+rm:communique_4f8fdf821f93d
+	a rm:Communique ;
+	rm:com_id "4f8fdf821f93d" ;
+	rm:con_com_id "3" ,
+		      "7" ;
+	rm:has_offering rm:offering_70 ,
+			rm:offering_71 .
 
-rm:ives_diarra
-	a rm:Person ;
-	rm:contact_fname "ives" ,
-			 "ives " ;
-	rm:contact_lname " diarra" ,
-			 "diarra" ;
-	rm:contact_tel "74634097" ;
-	rm:village rm:village_kinlokuy ;
-	rm:zone rm:zone_diora .
+rm:communique_500c25f894847
+	a rm:Communique ;
+	rm:com_id "500c25f894847" ;
+	rm:con_com_id "13" ,
+		      "14" ,
+		      "7" ,
+		      "9" ;
+	rm:has_offering rm:offering_72 ,
+			rm:offering_73 ,
+			rm:offering_74 ,
+			rm:offering_75 ,
+			rm:offering_76 ,
+			rm:offering_77 ,
+			rm:offering_78 ,
+			rm:offering_79 ,
+			rm:offering_80 ,
+			rm:offering_81 ,
+			rm:offering_82 ,
+			rm:offering_83 ,
+			rm:offering_84 ,
+			rm:offering_85 ,
+			rm:offering_86 ,
+			rm:offering_87 ,
+			rm:offering_88 ,
+			rm:offering_89 ,
+			rm:offering_90 ,
+			rm:offering_91 ,
+			rm:offering_92 ,
+			rm:offering_93 .
 
-rm:mazankuy_diarra
-	a rm:Person ;
-	rm:contact_fname "mazankuy" ;
-	rm:contact_lname "diarra" ;
-	rm:contact_tel "70549489" ;
-	rm:village rm:village_soute ;
-	rm:zone rm:zone_Mafoune .
+rm:communique_5016eda7ceafe
+	a rm:Communique ;
+	rm:com_id "5016eda7ceafe" ;
+	rm:con_com_id "13" ,
+		      "14" ,
+		      "17" ,
+		      "3" ,
+		      "4" ,
+		      "5" ,
+		      "9" ;
+	rm:has_offering rm:offering_100 ,
+			rm:offering_101 ,
+			rm:offering_102 ,
+			rm:offering_103 ,
+			rm:offering_104 ,
+			rm:offering_105 ,
+			rm:offering_106 ,
+			rm:offering_94 ,
+			rm:offering_95 ,
+			rm:offering_96 ,
+			rm:offering_97 ,
+			rm:offering_98 ,
+			rm:offering_99 .
 
-rm:moutian_keita
-	a rm:Person ;
-	rm:contact_fname "moutian" ;
-	rm:contact_lname " keita" ,
-			 "keita" ;
-	rm:contact_tel "78437947" ;
-	rm:village rm:village_Sira ;
-	rm:zone rm:zone_Mafoune .
+rm:communique_5025bdd17388c
+	a rm:Communique ;
+	rm:com_id "5025bdd17388c" ;
+	rm:con_com_id "14" ,
+		      "3" ,
+		      "5" ,
+		      "8" ;
+	rm:has_offering rm:offering_107 ,
+			rm:offering_108 ,
+			rm:offering_109 ,
+			rm:offering_110 .
+
+rm:communique_502da1127af2b
+	a rm:Communique ;
+	rm:com_id "502da1127af2b" ;
+	rm:con_com_id "10" ,
+		      "3" ;
+	rm:has_offering rm:offering_111 ,
+			rm:offering_112 ,
+			rm:offering_113 .
+
+rm:communique_50360aaa4d59a
+	a rm:Communique ;
+	rm:com_id "50360aaa4d59a" ;
+	rm:con_com_id "13" ;
+	rm:has_offering rm:offering_114 ,
+			rm:offering_115 .
+
+rm:communique_503c125f57337
+	a rm:Communique ;
+	rm:com_id "503c125f57337" ;
+	rm:con_com_id "13" ,
+		      "14" ,
+		      "8" ;
+	rm:has_offering rm:offering_116 ,
+			rm:offering_117 ,
+			rm:offering_118 .
 
 rm:offering_1
 	a rm:Offering ;
 	rm:com_number "1" ;
 	rm:currency "CFA" ;
 	rm:has_communique rm:communique_4ef066fd51ef2 ;
-	rm:has_contact rm:zakary_diarra ;
+	rm:has_contact rm:Zakary_Diarra ;
 	rm:price "1000.00" ;
 	rm:prod_com_id "9" ;
 	rm:prod_name rm:product-Tamarin ;
@@ -239,7 +369,7 @@ rm:offering_1
 	rm:store_id "1" ;
 	rm:ts_date_delivered "2011-12-22 16:52:40" ;
 	rm:ts_date_entered "2011-12-20 10:42:16" ;
-	rm:unit_measure "kg" ;
+	rm:unit_measure "Kg" ;
 	rm:user_id "6" .
 
 rm:offering_10
@@ -251,13 +381,183 @@ rm:offering_10
 	rm:price "1000.00" ;
 	rm:prod_com_id "2" ;
 	rm:prod_name rm:product-Beurre_de_karite ;
-	rm:quality "beurre issu des amandes ebouillantées" ;
+	rm:quality "Beurre issu des amandes ebouillantées" ;
 	rm:quantity "40.00" ;
 	rm:store_id "10" ;
 	rm:ts_date_delivered "2012-01-10 13:03:31" ;
 	rm:ts_date_entered "2012-01-10 12:52:07" ;
-	rm:unit_measure "kg" ;
+	rm:unit_measure "Kg" ;
 	rm:user_id "9" .
+
+rm:offering_100
+	a rm:Offering ;
+	rm:com_number "10" ;
+	rm:currency "CFA" ;
+	rm:has_communique rm:communique_5016eda7ceafe ;
+	rm:has_contact rm:Sabere_Diarra ;
+	rm:price "2000.00" ;
+	rm:prod_com_id "5" ;
+	rm:prod_name rm:product-Miel_liquide ;
+	rm:quality "Miel non brulé et pressé avec les soins d’hygiène alimentaire" ;
+	rm:quantity "40.00" ;
+	rm:store_id "100" ;
+	rm:ts_date_delivered "2012-07-30 20:25:38" ;
+	rm:ts_date_entered "2012-07-30 11:35:35" ;
+	rm:unit_measure "L" ;
+	rm:user_id "6" .
+
+rm:offering_101
+	a rm:Offering ;
+	rm:com_number "10" ;
+	rm:currency "CFA" ;
+	rm:has_communique rm:communique_5016eda7ceafe ;
+	rm:has_contact rm:Mazankuy_Diarra ;
+	rm:price "300.00" ;
+	rm:prod_com_id "2" ;
+	rm:prod_name rm:product-Beurre_de_karite ;
+	rm:quality "Beurre issu des amandes ébouillantées" ;
+	rm:quantity "80.00" ;
+	rm:store_id "101" ;
+	rm:ts_date_delivered "2012-07-30 20:25:38" ;
+	rm:ts_date_entered "2012-07-30 11:37:48" ;
+	rm:unit_measure "Kg" ;
+	rm:user_id "6" .
+
+rm:offering_102
+	a rm:Offering ;
+	rm:com_number "10" ;
+	rm:currency "CFA" ;
+	rm:has_communique rm:communique_5016eda7ceafe ;
+	rm:has_contact rm:Heke_Dembele ;
+	rm:price "2000.00" ;
+	rm:prod_com_id "5" ;
+	rm:prod_name rm:product-Miel_liquide ;
+	rm:quality "Miel non brulé et pressé avec les soins d’hygiène alimentaire" ;
+	rm:quantity "20.00" ;
+	rm:store_id "102" ;
+	rm:ts_date_delivered "2012-07-30 20:25:38" ;
+	rm:ts_date_entered "2012-07-30 20:17:04" ;
+	rm:unit_measure "L" ;
+	rm:user_id "6" .
+
+rm:offering_103
+	a rm:Offering ;
+	rm:com_number "10" ;
+	rm:currency "CFA" ;
+	rm:has_communique rm:communique_5016eda7ceafe ;
+	rm:has_contact rm:Heke_Dembele ;
+	rm:price "1000.00" ;
+	rm:prod_com_id "2" ;
+	rm:prod_name rm:product-Beurre_de_karite ;
+	rm:quality "Beurre issu des amandes ébouillantées" ;
+	rm:quantity "25.00" ;
+	rm:store_id "103" ;
+	rm:ts_date_delivered "2012-07-30 20:25:38" ;
+	rm:ts_date_entered "2012-07-30 20:17:33" ;
+	rm:unit_measure "Kg" ;
+	rm:user_id "6" .
+
+rm:offering_104
+	a rm:Offering ;
+	rm:com_number "10" ;
+	rm:currency "CFA" ;
+	rm:has_communique rm:communique_5016eda7ceafe ;
+	rm:has_contact rm:Gerard_Traore ;
+	rm:price "275.00" ;
+	rm:prod_com_id "1" ;
+	rm:prod_name rm:product-Amande_de_karite ;
+	rm:quality "Amande produit selon les nouvelles techniques (ébouillantage)" ;
+	rm:quantity "321.00" ;
+	rm:store_id "104" ;
+	rm:ts_date_delivered "2012-07-30 20:25:38" ;
+	rm:ts_date_entered "2012-07-30 20:19:32" ;
+	rm:unit_measure "Kg" ;
+	rm:user_id "6" .
+
+rm:offering_105
+	a rm:Offering ;
+	rm:com_number "10" ;
+	rm:currency "CFA" ;
+	rm:has_communique rm:communique_5016eda7ceafe ;
+	rm:has_contact rm:Zakary_Diarra ;
+	rm:price "1000.00" ;
+	rm:prod_com_id "2" ;
+	rm:prod_name rm:product-Beurre_de_karite ;
+	rm:quality "Beurre issu des amandes ébouillantées" ;
+	rm:quantity "120.00" ;
+	rm:store_id "105" ;
+	rm:ts_date_delivered "2012-07-30 20:25:38" ;
+	rm:ts_date_entered "2012-07-30 20:19:55" ;
+	rm:unit_measure "Kg" ;
+	rm:user_id "6" .
+
+rm:offering_106
+	a rm:Offering ;
+	rm:com_number "10" ;
+	rm:currency "CFA" ;
+	rm:has_communique rm:communique_5016eda7ceafe ;
+	rm:has_contact rm:Zakary_Diarra ;
+	rm:price "2000.00" ;
+	rm:prod_com_id "5" ;
+	rm:prod_name rm:product-Miel_liquide ;
+	rm:quality "Miel non brulé et pressé avec les soins d’hygiène alimentaire" ;
+	rm:quantity "60.00" ;
+	rm:store_id "106" ;
+	rm:ts_date_delivered "2012-07-30 20:25:38" ;
+	rm:ts_date_entered "2012-07-30 20:20:21" ;
+	rm:unit_measure "L" ;
+	rm:user_id "6" .
+
+rm:offering_107
+	a rm:Offering ;
+	rm:com_number "11" ;
+	rm:currency "CFA" ;
+	rm:has_communique rm:communique_5025bdd17388c ;
+	rm:has_contact rm:Sabere_Diarra ;
+	rm:price "2000.00" ;
+	rm:prod_com_id "5" ;
+	rm:prod_name rm:product-Miel_liquide ;
+	rm:quality "Miel non brulé et pressé avec les soins d’hygiène alimentaire" ;
+	rm:quantity "20.00" ;
+	rm:store_id "107" ;
+	rm:ts_date_delivered "2012-08-11 02:05:41" ;
+	rm:ts_date_entered "2012-08-11 01:59:23" ;
+	rm:unit_measure "L" ;
+	rm:user_id "6" .
+
+rm:offering_108
+	a rm:Offering ;
+	rm:com_number "11" ;
+	rm:currency "CFA" ;
+	rm:has_communique rm:communique_5025bdd17388c ;
+	rm:has_contact rm:Abdias_Dabou ;
+	rm:price "600.00" ;
+	rm:prod_com_id "3" ;
+	rm:prod_name rm:product-Graine_de_nere ;
+	rm:quality "Graine propre" ;
+	rm:quantity "80.00" ;
+	rm:store_id "108" ;
+	rm:ts_date_delivered "2012-08-11 02:05:41" ;
+	rm:ts_date_entered "2012-08-11 02:00:22" ;
+	rm:unit_measure "Kg" ;
+	rm:user_id "6" .
+
+rm:offering_109
+	a rm:Offering ;
+	rm:com_number "11" ;
+	rm:currency "CFA" ;
+	rm:has_communique rm:communique_5025bdd17388c ;
+	rm:has_contact rm:Gerard_Traore ;
+	rm:price "2000.00" ;
+	rm:prod_com_id "5" ;
+	rm:prod_name rm:product-Miel_liquide ;
+	rm:quality "Miel non brulé et pressé avec les soins d’hygiène alimentaire" ;
+	rm:quantity "25.00" ;
+	rm:store_id "109" ;
+	rm:ts_date_delivered "2012-08-11 02:05:41" ;
+	rm:ts_date_entered "2012-08-11 02:02:10" ;
+	rm:unit_measure "L" ;
+	rm:user_id "6" .
 
 rm:offering_11
 	a rm:Offering ;
@@ -273,24 +573,178 @@ rm:offering_11
 	rm:store_id "11" ;
 	rm:ts_date_delivered "2012-01-10 13:03:31" ;
 	rm:ts_date_entered "2012-01-10 12:53:07" ;
-	rm:unit_measure "kg" ;
+	rm:unit_measure "Kg" ;
 	rm:user_id "9" .
+
+rm:offering_110
+	a rm:Offering ;
+	rm:com_number "11" ;
+	rm:currency "CFA" ;
+	rm:has_communique rm:communique_5025bdd17388c ;
+	rm:has_contact rm:Mazankuy_Diarra ;
+	rm:price "700.00" ;
+	rm:prod_com_id "2" ;
+	rm:prod_name rm:product-Beurre_de_karite ;
+	rm:quality "Beurre issu des amandes ébouillantées" ;
+	rm:quantity "80.00" ;
+	rm:store_id "110" ;
+	rm:ts_date_delivered "2012-08-11 02:05:41" ;
+	rm:ts_date_entered "2012-08-11 02:03:35" ;
+	rm:unit_measure "Kg" ;
+	rm:user_id "6" .
+
+rm:offering_111
+	a rm:Offering ;
+	rm:com_number "12" ;
+	rm:contact_address "" ;
+	rm:currency "CFA" ;
+	rm:has_communique rm:communique_502da1127af2b ;
+	rm:has_contact rm:Gedeon_Keita ;
+	rm:price "700.00" ;
+	rm:prod_com_id "2" ;
+	rm:prod_name rm:product-Beurre_de_karite ;
+	rm:quality "Beurre issu des amandes ébouillantées" ;
+	rm:quantity "250.00" ;
+	rm:store_id "111" ;
+	rm:ts_date_delivered "2012-08-17 01:40:59" ;
+	rm:ts_date_entered "2012-08-17 01:37:56" ;
+	rm:unit_measure "Kg" ;
+	rm:user_id "6" .
+
+rm:offering_112
+	a rm:Offering ;
+	rm:com_number "12" ;
+	rm:currency "CFA" ;
+	rm:has_communique rm:communique_502da1127af2b ;
+	rm:has_contact rm:Sabere_Diarra ;
+	rm:price "2000.00" ;
+	rm:prod_com_id "5" ;
+	rm:prod_name rm:product-Miel_liquide ;
+	rm:quality "Miel non brulé et pressé avec les soins d’hygiène alimentaire" ;
+	rm:quantity "40.00" ;
+	rm:store_id "112" ;
+	rm:ts_date_delivered "2012-08-17 01:40:59" ;
+	rm:ts_date_entered "2012-08-17 01:38:44" ;
+	rm:unit_measure "L" ;
+	rm:user_id "6" .
+
+rm:offering_113
+	a rm:Offering ;
+	rm:com_number "12" ;
+	rm:currency "CFA" ;
+	rm:has_communique rm:communique_502da1127af2b ;
+	rm:has_contact rm:Sabere_Diarra ;
+	rm:price "700.00" ;
+	rm:prod_com_id "2" ;
+	rm:prod_name rm:product-Beurre_de_karite ;
+	rm:quality "Beurre issu des amandes ébouillantées" ;
+	rm:quantity "40.00" ;
+	rm:store_id "113" ;
+	rm:ts_date_delivered "2012-08-17 01:40:59" ;
+	rm:ts_date_entered "2012-08-17 01:39:36" ;
+	rm:unit_measure "Kg" ;
+	rm:user_id "6" .
+
+rm:offering_114
+	a rm:Offering ;
+	rm:com_number "13" ;
+	rm:currency "CFA" ;
+	rm:has_communique rm:communique_50360aaa4d59a ;
+	rm:has_contact rm:Zakary_Diarra ;
+	rm:price "2000.00" ;
+	rm:prod_com_id "5" ;
+	rm:prod_name rm:product-Miel_liquide ;
+	rm:quality "Miel non brulé et pressé avec les soins d’hygiène alimentaire" ;
+	rm:quantity "42.00" ;
+	rm:store_id "114" ;
+	rm:ts_date_delivered "2012-08-23 10:50:23" ;
+	rm:ts_date_entered "2012-08-23 10:47:40" ;
+	rm:unit_measure "L" ;
+	rm:user_id "6" .
+
+rm:offering_115
+	a rm:Offering ;
+	rm:com_number "13" ;
+	rm:currency "CFA" ;
+	rm:has_communique rm:communique_50360aaa4d59a ;
+	rm:has_contact rm:Zakary_Diarra ;
+	rm:price "700.00" ;
+	rm:prod_com_id "2" ;
+	rm:prod_name rm:product-Beurre_de_karite ;
+	rm:quality "Beurre issu des amandes ébouillantées" ;
+	rm:quantity "250.00" ;
+	rm:store_id "115" ;
+	rm:ts_date_delivered "2012-08-23 10:50:23" ;
+	rm:ts_date_entered "2012-08-23 10:48:15" ;
+	rm:unit_measure "Kg" ;
+	rm:user_id "6" .
+
+rm:offering_116
+	a rm:Offering ;
+	rm:com_number "14" ;
+	rm:currency "CFA" ;
+	rm:has_communique rm:communique_503c125f57337 ;
+	rm:has_contact rm:Abdias_Dabou ;
+	rm:price "700.00" ;
+	rm:prod_com_id "2" ;
+	rm:prod_name rm:product-Beurre_de_karite ;
+	rm:quality "Beurre issu des amandes ébouillantées" ;
+	rm:quantity "130.00" ;
+	rm:store_id "116" ;
+	rm:ts_date_delivered "2012-08-28 00:36:20" ;
+	rm:ts_date_entered "2012-08-28 00:31:44" ;
+	rm:unit_measure "Kg" ;
+	rm:user_id "6" .
+
+rm:offering_117
+	a rm:Offering ;
+	rm:com_number "14" ;
+	rm:currency "CFA" ;
+	rm:has_communique rm:communique_503c125f57337 ;
+	rm:has_contact rm:Mazankuy_Diarra ;
+	rm:price "700.00" ;
+	rm:prod_com_id "2" ;
+	rm:prod_name rm:product-Beurre_de_karite ;
+	rm:quality "Beurre issu des amandes ébouillantées" ;
+	rm:quantity "563.00" ;
+	rm:store_id "117" ;
+	rm:ts_date_delivered "2012-08-28 00:36:20" ;
+	rm:ts_date_entered "2012-08-28 00:33:18" ;
+	rm:unit_measure "Kg" ;
+	rm:user_id "6" .
+
+rm:offering_118
+	a rm:Offering ;
+	rm:com_number "14" ;
+	rm:currency "CFA" ;
+	rm:has_communique rm:communique_503c125f57337 ;
+	rm:has_contact rm:Zakary_Diarra ;
+	rm:price "2000.00" ;
+	rm:prod_com_id "5" ;
+	rm:prod_name rm:product-Miel_liquide ;
+	rm:quality "Miel non brulé et pressé avec les soins d’hygiène alimentaire" ;
+	rm:quantity "45.00" ;
+	rm:store_id "118" ;
+	rm:ts_date_delivered "2012-08-28 00:36:20" ;
+	rm:ts_date_entered "2012-08-28 00:33:47" ;
+	rm:unit_measure "L" ;
+	rm:user_id "6" .
 
 rm:offering_2
 	a rm:Offering ;
 	rm:com_number "1" ;
 	rm:currency "CFA" ;
 	rm:has_communique rm:communique_4ef3652fb3157 ;
-	rm:has_contact rm:ives_diarra ;
+	rm:has_contact rm:Ives_Diarra ;
 	rm:price "1000.00" ;
 	rm:prod_com_id "2" ;
 	rm:prod_name rm:product-Beurre_de_karite ;
-	rm:quality "beurre issu des amandes ebouillantées" ;
+	rm:quality "Beurre issu des amandes ebouillantées" ;
 	rm:quantity "50.00" ;
 	rm:store_id "2" ;
 	rm:ts_date_delivered "2011-12-22 17:46:19" ;
 	rm:ts_date_entered "2011-12-22 16:59:34" ;
-	rm:unit_measure "kg" ;
+	rm:unit_measure "Kg" ;
 	rm:user_id "6" .
 
 rm:offering_3
@@ -298,16 +752,16 @@ rm:offering_3
 	rm:com_number "1" ;
 	rm:currency "CFA" ;
 	rm:has_communique rm:communique_4ef3652fb3157 ;
-	rm:has_contact rm:ives_diarra ;
+	rm:has_contact rm:Ives_Diarra ;
 	rm:price "750.00" ;
 	rm:prod_com_id "4" ;
 	rm:prod_name rm:product-Tamarin ;
-	rm:quality "tamarin décortiqué propre" ;
+	rm:quality "Tamarin décortiqué propre" ;
 	rm:quantity "900.00" ;
 	rm:store_id "3" ;
 	rm:ts_date_delivered "2011-12-22 17:46:19" ;
 	rm:ts_date_entered "2011-12-22 16:59:34" ;
-	rm:unit_measure "kg" ;
+	rm:unit_measure "Kg" ;
 	rm:user_id "6" .
 
 rm:offering_4
@@ -315,16 +769,16 @@ rm:offering_4
 	rm:com_number "1" ;
 	rm:currency "CFA" ;
 	rm:has_communique rm:communique_4ef3652fb3157 ;
-	rm:has_contact rm:ives_diarra ;
+	rm:has_contact rm:Ives_Diarra ;
 	rm:price "150.00" ;
 	rm:prod_com_id "1" ;
 	rm:prod_name rm:product-Amande_de_karite ;
-	rm:quality "amande ébouillanté" ;
+	rm:quality "Amande ébouillanté" ;
 	rm:quantity "3000.00" ;
 	rm:store_id "4" ;
 	rm:ts_date_delivered "2011-12-22 17:46:19" ;
 	rm:ts_date_entered "2011-12-22 16:59:34" ;
-	rm:unit_measure "kg" ;
+	rm:unit_measure "Kg" ;
 	rm:user_id "6" .
 
 rm:offering_48
@@ -359,7 +813,7 @@ rm:offering_49
 	rm:store_id "49" ;
 	rm:ts_date_delivered "2012-01-12 14:47:49" ;
 	rm:ts_date_entered "2012-01-11 10:10:46" ;
-	rm:unit_measure "kg" ;
+	rm:unit_measure "Kg" ;
 	rm:user_id "1" .
 
 rm:offering_5
@@ -376,7 +830,7 @@ rm:offering_5
 	rm:store_id "5" ;
 	rm:ts_date_delivered "2012-01-08 00:18:33" ;
 	rm:ts_date_entered "2011-12-20 10:42:16" ;
-	rm:unit_measure "kg" ;
+	rm:unit_measure "Kg" ;
 	rm:user_id "6" .
 
 rm:offering_50
@@ -412,9 +866,9 @@ rm:offering_51
 	rm:store_id "51" ;
 	rm:ts_date_delivered "2012-01-12 21:23:25" ;
 	rm:ts_date_entered "2011-12-18 18:23:40" ;
-	rm:unit_measure "kg" ;
+	rm:unit_measure "Kg" ;
 	rm:user_id "1" ;
-	rm:village rm:village_bambara ;
+	rm:village rm:village_Bambara ;
 	rm:zone rm:zone_Koula .
 
 rm:offering_52
@@ -422,7 +876,7 @@ rm:offering_52
 	rm:com_number "5" ;
 	rm:currency "CFA" ;
 	rm:has_communique rm:communique_4f0ecb2bb3444 ;
-	rm:has_contact rm:moutian_keita ;
+	rm:has_contact rm:Moutian_Keita ;
 	rm:price "1000.00" ;
 	rm:prod_com_id "2" ;
 	rm:prod_name rm:product-Beurre_de_karite ;
@@ -431,7 +885,7 @@ rm:offering_52
 	rm:store_id "52" ;
 	rm:ts_date_delivered "2012-01-12 14:08:26" ;
 	rm:ts_date_entered "2012-01-12 11:59:40" ;
-	rm:unit_measure "kg" ;
+	rm:unit_measure "Kg" ;
 	rm:user_id "6" .
 
 rm:offering_53
@@ -439,7 +893,7 @@ rm:offering_53
 	rm:com_number "5" ;
 	rm:currency "CFA" ;
 	rm:has_communique rm:communique_4f0ecb2bb3444 ;
-	rm:has_contact rm:moutian_keita ;
+	rm:has_contact rm:Moutian_Keita ;
 	rm:price "250.00" ;
 	rm:prod_com_id "4" ;
 	rm:prod_name rm:product-Tamarin ;
@@ -448,7 +902,7 @@ rm:offering_53
 	rm:store_id "53" ;
 	rm:ts_date_delivered "2012-01-12 14:08:26" ;
 	rm:ts_date_entered "2012-01-08 00:05:39" ;
-	rm:unit_measure "kg" ;
+	rm:unit_measure "Kg" ;
 	rm:user_id "6" .
 
 rm:offering_54
@@ -456,16 +910,16 @@ rm:offering_54
 	rm:com_number "5" ;
 	rm:currency "CFA" ;
 	rm:has_communique rm:communique_4f0ecb2bb3444 ;
-	rm:has_contact rm:fidel_kone ;
+	rm:has_contact rm:Fidel_kone ;
 	rm:price "125.00" ;
 	rm:prod_com_id "1" ;
 	rm:prod_name rm:product-Amande_de_karite ;
-	rm:quality "amande fumée" ;
+	rm:quality "Amande fumée" ;
 	rm:quantity "3000.00" ;
 	rm:store_id "54" ;
 	rm:ts_date_delivered "2012-01-12 14:08:26" ;
 	rm:ts_date_entered "2012-01-08 00:09:37" ;
-	rm:unit_measure "kg" ;
+	rm:unit_measure "Kg" ;
 	rm:user_id "6" .
 
 rm:offering_55
@@ -473,16 +927,16 @@ rm:offering_55
 	rm:com_number "5" ;
 	rm:currency "CFA" ;
 	rm:has_communique rm:communique_4f0ecb2bb3444 ;
-	rm:has_contact rm:fidel_kone ;
+	rm:has_contact rm:Fidel_Kone ;
 	rm:price "1000.00" ;
 	rm:prod_com_id "1" ;
 	rm:prod_name rm:product-Beurre_de_karite ;
-	rm:quality "beurre issu des amandes ebouillantées" ;
+	rm:quality "Beurre issu des amandes ebouillantées" ;
 	rm:quantity "100.00" ;
 	rm:store_id "55" ;
 	rm:ts_date_delivered "2012-01-12 14:08:26" ;
 	rm:ts_date_entered "2012-01-08 00:11:47" ;
-	rm:unit_measure "kg" ;
+	rm:unit_measure "Kg" ;
 	rm:user_id "6" .
 
 rm:offering_56
@@ -490,16 +944,16 @@ rm:offering_56
 	rm:com_number "5" ;
 	rm:currency "CFA" ;
 	rm:has_communique rm:communique_4f0ecb2bb3444 ;
-	rm:has_contact rm:mazankuy_diarra ;
+	rm:has_contact rm:Mazankuy_Diarra ;
 	rm:price "250.00" ;
 	rm:prod_com_id "1" ;
 	rm:prod_name rm:product-Amande_de_karite ;
-	rm:quality "amande ebouillante" ;
+	rm:quality "Amande ebouillante" ;
 	rm:quantity "900.00" ;
 	rm:store_id "56" ;
 	rm:ts_date_delivered "2012-01-12 14:08:26" ;
 	rm:ts_date_entered "2012-01-12 11:32:28" ;
-	rm:unit_measure "kg" ;
+	rm:unit_measure "Kg" ;
 	rm:user_id "6" .
 
 rm:offering_57
@@ -507,16 +961,16 @@ rm:offering_57
 	rm:com_number "5" ;
 	rm:currency "CFA" ;
 	rm:has_communique rm:communique_4f0ecb2bb3444 ;
-	rm:has_contact rm:mazankuy_diarra ;
+	rm:has_contact rm:Mazankuy_Diarra ;
 	rm:price "600.00" ;
 	rm:prod_com_id "2" ;
 	rm:prod_name rm:product-Beurre_de_karite ;
-	rm:quality "beurre issu des amandes fumées" ;
+	rm:quality "Beurre issu des amandes fumées" ;
 	rm:quantity "800.00" ;
 	rm:store_id "57" ;
 	rm:ts_date_delivered "2012-01-12 14:08:26" ;
 	rm:ts_date_entered "2012-01-12 11:34:31" ;
-	rm:unit_measure "kg" ;
+	rm:unit_measure "Kg" ;
 	rm:user_id "6" .
 
 rm:offering_58
@@ -528,12 +982,12 @@ rm:offering_58
 	rm:price "1000.00" ;
 	rm:prod_com_id "2" ;
 	rm:prod_name rm:product-Beurre_de_karite ;
-	rm:quality "beurre issu des amandes ebouillantées" ;
+	rm:quality "Beurre issu des amandes ebouillantées" ;
 	rm:quantity "40.00" ;
 	rm:store_id "58" ;
 	rm:ts_date_delivered "2012-01-31 07:48:54" ;
 	rm:ts_date_entered "2012-01-10 12:52:07" ;
-	rm:unit_measure "kg" ;
+	rm:unit_measure "Kg" ;
 	rm:user_id "9" .
 
 rm:offering_59
@@ -545,12 +999,12 @@ rm:offering_59
 	rm:price "250.00" ;
 	rm:prod_com_id "4" ;
 	rm:prod_name rm:product-Tamarin ;
-	rm:quality "tamarin décourtiqué propre" ;
+	rm:quality "Tamarin décourtiqué propre" ;
 	rm:quantity "100.00" ;
 	rm:store_id "59" ;
 	rm:ts_date_delivered "2012-01-31 07:48:54" ;
 	rm:ts_date_entered "2012-01-10 12:53:07" ;
-	rm:unit_measure "kg" ;
+	rm:unit_measure "Kg" ;
 	rm:user_id "9" .
 
 rm:offering_60
@@ -562,12 +1016,12 @@ rm:offering_60
 	rm:price "1000.00" ;
 	rm:prod_com_id "2" ;
 	rm:prod_name rm:product-Beurre_de_karite ;
-	rm:quality "beurre issu des amandes ebouillantées" ;
+	rm:quality "Beurre issu des amandes ebouillantées" ;
 	rm:quantity "40.00" ;
 	rm:store_id "60" ;
 	rm:ts_date_delivered "2012-01-31 07:50:20" ;
 	rm:ts_date_entered "2012-01-10 12:52:07" ;
-	rm:unit_measure "kg" ;
+	rm:unit_measure "Kg" ;
 	rm:user_id "9" .
 
 rm:offering_61
@@ -579,12 +1033,12 @@ rm:offering_61
 	rm:price "250.00" ;
 	rm:prod_com_id "4" ;
 	rm:prod_name rm:product-Tamarin ;
-	rm:quality "tamarin décourtiqué propre" ;
+	rm:quality "Tamarin décourtiqué propre" ;
 	rm:quantity "100.00" ;
 	rm:store_id "61" ;
 	rm:ts_date_delivered "2012-01-31 07:50:20" ;
 	rm:ts_date_entered "2012-01-10 12:53:07" ;
-	rm:unit_measure "kg" ;
+	rm:unit_measure "Kg" ;
 	rm:user_id "9" .
 
 rm:offering_62
@@ -724,6 +1178,178 @@ rm:offering_69
 	rm:unit_measure "L" ;
 	rm:user_id "6" .
 
+rm:offering_70
+	a rm:Offering ;
+	rm:com_number "9" ;
+	rm:currency "CFA" ;
+	rm:has_communique rm:communique_4f8fdf821f93d ;
+	rm:has_contact rm:Sabere_Diarra ;
+	rm:price "2000.00" ;
+	rm:prod_com_id "5" ;
+	rm:prod_name rm:product-Miel_liquide ;
+	rm:quality "Miel non brulé et pressé avec les soins d’hygiène alimentaire" ;
+	rm:quantity "60.00" ;
+	rm:store_id "70" ;
+	rm:ts_date_delivered "2012-04-19 09:49:13" ;
+	rm:ts_date_entered "2012-04-19 09:47:26" ;
+	rm:unit_measure "L" ;
+	rm:user_id "6" .
+
+rm:offering_71
+	a rm:Offering ;
+	rm:com_number "9" ;
+	rm:contact_address "" ;
+	rm:currency "CFA" ;
+	rm:has_communique rm:communique_4f8fdf821f93d ;
+	rm:has_contact rm:Fidel_Kone ;
+	rm:price "2000.00" ;
+	rm:prod_com_id "5" ;
+	rm:prod_name rm:product-Miel_liquide ;
+	rm:quality "Miel non brulé et pressé avec les soins d’hygiène alimentaire" ;
+	rm:quantity "120.00" ;
+	rm:store_id "71" ;
+	rm:ts_date_delivered "2012-04-19 09:49:13" ;
+	rm:ts_date_entered "2012-04-19 09:48:01" ;
+	rm:unit_measure "L" ;
+	rm:user_id "6" .
+
+rm:offering_72
+	a rm:Offering ;
+	rm:com_number "8" ;
+	rm:currency "CFA" ;
+	rm:has_communique rm:communique_500c25f894847 ;
+	rm:has_contact rm:Mazankuy_Diarra ;
+	rm:price "600.00" ;
+	rm:prod_com_id "2" ;
+	rm:prod_name rm:product-Beurre_de_karite ;
+	rm:quality "Beurre issu des amandes ébouillantées" ;
+	rm:quantity "100.00" ;
+	rm:store_id "72" ;
+	rm:ts_date_delivered "2012-07-22 16:11:09" ;
+	rm:ts_date_entered "2012-07-22 16:00:01" ;
+	rm:unit_measure "Kg" ;
+	rm:user_id "6" .
+
+rm:offering_73
+	a rm:Offering ;
+	rm:com_number "8" ;
+	rm:currency "CFA" ;
+	rm:has_communique rm:communique_500c25f894847 ;
+	rm:has_contact rm:Mazankuy_Diarra ;
+	rm:price "700.00" ;
+	rm:prod_com_id "3" ;
+	rm:prod_name rm:product-Graine_de_nere ;
+	rm:quality "Graine propre" ;
+	rm:quantity "90.00" ;
+	rm:store_id "73" ;
+	rm:ts_date_delivered "2012-07-22 16:11:09" ;
+	rm:ts_date_entered "2012-07-22 16:00:49" ;
+	rm:unit_measure "Kg" ;
+	rm:user_id "6" .
+
+rm:offering_74
+	a rm:Offering ;
+	rm:com_number "8" ;
+	rm:contact_address "" ;
+	rm:currency "CFA" ;
+	rm:has_communique rm:communique_500c25f894847 ;
+	rm:has_contact rm:Fidel_Kone ;
+	rm:price "625.00" ;
+	rm:prod_com_id "3" ;
+	rm:prod_name rm:product-Graine_de_nere ;
+	rm:quality "Graine propre" ;
+	rm:quantity "1000.00" ;
+	rm:store_id "74" ;
+	rm:ts_date_delivered "2012-07-22 16:11:09" ;
+	rm:ts_date_entered "2012-07-22 16:01:20" ;
+	rm:unit_measure "Kg" ;
+	rm:user_id "6" .
+
+rm:offering_75
+	a rm:Offering ;
+	rm:com_number "8" ;
+	rm:currency "CFA" ;
+	rm:has_communique rm:communique_500c25f894847 ;
+	rm:has_contact rm:Mazankuy_Diarra ;
+	rm:price "200.00" ;
+	rm:prod_com_id "1" ;
+	rm:prod_name rm:product-Amande_de_karite ;
+	rm:quality "Amande produit selon les nouvelles techniques (ébouillantage)" ;
+	rm:quantity "80.00" ;
+	rm:store_id "75" ;
+	rm:ts_date_delivered "2012-07-22 16:11:09" ;
+	rm:ts_date_entered "2012-07-22 16:02:07" ;
+	rm:unit_measure "Kg" ;
+	rm:user_id "6" .
+
+rm:offering_76
+	a rm:Offering ;
+	rm:com_number "8" ;
+	rm:currency "CFA" ;
+	rm:has_communique rm:communique_500c25f894847 ;
+	rm:has_contact rm:Zakary_Diarra ;
+	rm:price "2000.00" ;
+	rm:prod_com_id "5" ;
+	rm:prod_name rm:product-Miel_liquide ;
+	rm:quality "Miel non brulé et pressé avec les soins d’hygiène alimentaire" ;
+	rm:quantity "52.00" ;
+	rm:store_id "76" ;
+	rm:ts_date_delivered "2012-07-22 16:11:09" ;
+	rm:ts_date_entered "2012-07-22 16:02:46" ;
+	rm:unit_measure "L" ;
+	rm:user_id "6" .
+
+rm:offering_77
+	a rm:Offering ;
+	rm:com_number "8" ;
+	rm:currency "CFA" ;
+	rm:has_communique rm:communique_500c25f894847 ;
+	rm:has_contact rm:Zakary_Diarra ;
+	rm:price "1000.00" ;
+	rm:prod_com_id "2" ;
+	rm:prod_name rm:product-Beurre_de_karite ;
+	rm:quality "Beurre issu des amandes ébouillantées" ;
+	rm:quantity "300.00" ;
+	rm:store_id "77" ;
+	rm:ts_date_delivered "2012-07-22 16:11:09" ;
+	rm:ts_date_entered "2012-07-22 16:03:11" ;
+	rm:unit_measure "Kg" ;
+	rm:user_id "6" .
+
+rm:offering_78
+	a rm:Offering ;
+	rm:com_number "8" ;
+	rm:currency "CFA" ;
+	rm:has_communique rm:communique_500c25f894847 ;
+	rm:has_contact rm:Mazankuy_Diarra ;
+	rm:price "700.00" ;
+	rm:prod_com_id "2" ;
+	rm:prod_name rm:product-Beurre_de_karite ;
+	rm:quality "Beurre issu des amandes ébouillantées" ;
+	rm:quantity "80.00" ;
+	rm:store_id "78" ;
+	rm:ts_date_delivered "2012-07-22 16:11:09" ;
+	rm:ts_date_entered "2012-07-22 16:04:23" ;
+	rm:unit_measure "Kg" ;
+	rm:user_id "6" .
+
+rm:offering_79
+	a rm:Offering ;
+	rm:com_number "8" ;
+	rm:currency "CFA" ;
+	rm:has_communique rm:communique_500c25f894847 ;
+	rm:has_contact rm:Mazankuy_Diarra ;
+	rm:price "250.00" ;
+	rm:prod_com_id "1" ;
+	rm:prod_name rm:product-Amande_de_karite ;
+	rm:quality "Amande produit selon les nouvelles techniques (ébouillantage)" ;
+	rm:quantity "98.00" ;
+	rm:store_id "79" ;
+	rm:ts_date_delivered "2012-07-22 16:11:09" ;
+	rm:ts_date_entered "2012-07-22 16:05:06" ;
+	rm:unit_measure "Kg" ;
+	rm:user_id "6" .
+
 rm:offering_8
 	a rm:Offering ;
 	rm:com_number "4" ;
@@ -733,13 +1359,185 @@ rm:offering_8
 	rm:price "1000.00" ;
 	rm:prod_com_id "2" ;
 	rm:prod_name rm:product-Beurre_de_karite ;
-	rm:quality "beurre issu des amandes ebouillantées" ;
+	rm:quality "Beurre issu des amandes ebouillantées" ;
 	rm:quantity "40.00" ;
 	rm:store_id "8" ;
 	rm:ts_date_delivered "2012-01-10 12:56:36" ;
 	rm:ts_date_entered "2012-01-10 12:52:07" ;
-	rm:unit_measure "kg" ;
+	rm:unit_measure "Kg" ;
 	rm:user_id "9" .
+
+rm:offering_80
+	a rm:Offering ;
+	rm:com_number "8" ;
+	rm:contact_address "" ;
+	rm:currency "CFA" ;
+	rm:has_communique rm:communique_500c25f894847 ;
+	rm:has_contact rm:Marc_Dakouo ;
+	rm:price "1000.00" ;
+	rm:prod_com_id "2" ;
+	rm:prod_name rm:product-Beurre_de_karite ;
+	rm:quality "Beurre issu des amandes ébouillantées" ;
+	rm:quantity "100.00" ;
+	rm:store_id "80" ;
+	rm:ts_date_delivered "2012-07-22 16:11:09" ;
+	rm:ts_date_entered "2012-07-22 16:05:57" ;
+	rm:unit_measure "Kg" ;
+	rm:user_id "6" .
+
+rm:offering_81
+	a rm:Offering ;
+	rm:com_number "8" ;
+	rm:currency "CFA" ;
+	rm:has_communique rm:communique_500c25f894847 ;
+	rm:has_contact rm:Zakary_Diarra ;
+	rm:price "700.00" ;
+	rm:prod_com_id "3" ;
+	rm:prod_name rm:product-Graine_de_nere ;
+	rm:quality "Graine propre" ;
+	rm:quantity "400.00" ;
+	rm:store_id "81" ;
+	rm:ts_date_delivered "2012-07-22 16:11:09" ;
+	rm:ts_date_entered "2012-07-22 16:06:46" ;
+	rm:unit_measure "Kg" ;
+	rm:user_id "6" .
+
+rm:offering_82
+	a rm:Offering ;
+	rm:com_number "8" ;
+	rm:currency "CFA" ;
+	rm:has_communique rm:communique_500c25f894847 ;
+	rm:has_contact rm:Zakary_Diarra ;
+	rm:price "200.00" ;
+	rm:prod_com_id "1" ;
+	rm:prod_name rm:product-Amande_de_karite ;
+	rm:quality "Amande produit selon les nouvelles techniques (ébouillantage)" ;
+	rm:quantity "500.00" ;
+	rm:store_id "82" ;
+	rm:ts_date_delivered "2012-07-22 16:11:09" ;
+	rm:ts_date_entered "2012-07-22 16:07:21" ;
+	rm:unit_measure "Kg" ;
+	rm:user_id "6" .
+
+rm:offering_83
+	a rm:Offering ;
+	rm:com_number "8" ;
+	rm:currency "CFA" ;
+	rm:has_communique rm:communique_500c25f894847 ;
+	rm:has_contact rm:Mazankuy_Diarra ;
+	rm:price "600.00" ;
+	rm:prod_com_id "2" ;
+	rm:prod_name rm:product-Beurre_de_karite ;
+	rm:quality "Beurre issu des amandes ébouillantées" ;
+	rm:quantity "100.00" ;
+	rm:store_id "83" ;
+	rm:ts_date_delivered "2012-07-22 16:11:11" ;
+	rm:ts_date_entered "2012-07-22 16:00:01" ;
+	rm:unit_measure "Kg" ;
+	rm:user_id "6" .
+
+rm:offering_84
+	a rm:Offering ;
+	rm:com_number "8" ;
+	rm:currency "CFA" ;
+	rm:has_communique rm:communique_500c25f894847 ;
+	rm:has_contact rm:Mazankuy_Diarra ;
+	rm:price "700.00" ;
+	rm:prod_com_id "3" ;
+	rm:prod_name rm:product-Graine_de_nere ;
+	rm:quality "Graine propre" ;
+	rm:quantity "90.00" ;
+	rm:store_id "84" ;
+	rm:ts_date_delivered "2012-07-22 16:11:11" ;
+	rm:ts_date_entered "2012-07-22 16:00:49" ;
+	rm:unit_measure "Kg" ;
+	rm:user_id "6" .
+
+rm:offering_85
+	a rm:Offering ;
+	rm:com_number "8" ;
+	rm:contact_address "" ;
+	rm:currency "CFA" ;
+	rm:has_communique rm:communique_500c25f894847 ;
+	rm:has_contact rm:Fidel_Kone ;
+	rm:price "625.00" ;
+	rm:prod_com_id "3" ;
+	rm:prod_name rm:product-Graine_de_nere ;
+	rm:quality "Graine propre" ;
+	rm:quantity "1000.00" ;
+	rm:store_id "85" ;
+	rm:ts_date_delivered "2012-07-22 16:11:11" ;
+	rm:ts_date_entered "2012-07-22 16:01:20" ;
+	rm:unit_measure "Kg" ;
+	rm:user_id "6" .
+
+rm:offering_86
+	a rm:Offering ;
+	rm:com_number "8" ;
+	rm:currency "CFA" ;
+	rm:has_communique rm:communique_500c25f894847 ;
+	rm:has_contact rm:Mazankuy_Diarra ;
+	rm:price "200.00" ;
+	rm:prod_com_id "1" ;
+	rm:prod_name rm:product-Amande_de_karite ;
+	rm:quality "Amande produit selon les nouvelles techniques (ébouillantage)" ;
+	rm:quantity "80.00" ;
+	rm:store_id "86" ;
+	rm:ts_date_delivered "2012-07-22 16:11:11" ;
+	rm:ts_date_entered "2012-07-22 16:02:07" ;
+	rm:unit_measure "Kg" ;
+	rm:user_id "6" .
+
+rm:offering_87
+	a rm:Offering ;
+	rm:com_number "8" ;
+	rm:currency "CFA" ;
+	rm:has_communique rm:communique_500c25f894847 ;
+	rm:has_contact rm:Zakary_Diarra ;
+	rm:price "2000.00" ;
+	rm:prod_com_id "5" ;
+	rm:prod_name rm:product-Miel_liquide ;
+	rm:quality "Miel non brulé et pressé avec les soins d’hygiène alimentaire" ;
+	rm:quantity "52.00" ;
+	rm:store_id "87" ;
+	rm:ts_date_delivered "2012-07-22 16:11:11" ;
+	rm:ts_date_entered "2012-07-22 16:02:46" ;
+	rm:unit_measure "L" ;
+	rm:user_id "6" .
+
+rm:offering_88
+	a rm:Offering ;
+	rm:com_number "8" ;
+	rm:currency "CFA" ;
+	rm:has_communique rm:communique_500c25f894847 ;
+	rm:has_contact rm:Zakary_Diarra ;
+	rm:price "1000.00" ;
+	rm:prod_com_id "2" ;
+	rm:prod_name rm:product-Beurre_de_karite ;
+	rm:quality "Beurre issu des amandes ébouillantées" ;
+	rm:quantity "300.00" ;
+	rm:store_id "88" ;
+	rm:ts_date_delivered "2012-07-22 16:11:11" ;
+	rm:ts_date_entered "2012-07-22 16:03:11" ;
+	rm:unit_measure "Kg" ;
+	rm:user_id "6" .
+
+rm:offering_89
+	a rm:Offering ;
+	rm:com_number "8" ;
+	rm:currency "CFA" ;
+	rm:has_communique rm:communique_500c25f894847 ;
+	rm:has_contact rm:Mazankuy_Diarra ;
+	rm:price "700.00" ;
+	rm:prod_com_id "2" ;
+	rm:prod_name rm:product-Beurre_de_karite ;
+	rm:quality "Beurre issu des amandes ébouillantées" ;
+	rm:quantity "80.00" ;
+	rm:store_id "89" ;
+	rm:ts_date_delivered "2012-07-22 16:11:11" ;
+	rm:ts_date_entered "2012-07-22 16:04:23" ;
+	rm:unit_measure "Kg" ;
+	rm:user_id "6" .
 
 rm:offering_9
 	a rm:Offering ;
@@ -750,23 +1548,194 @@ rm:offering_9
 	rm:price "250.00" ;
 	rm:prod_com_id "4" ;
 	rm:prod_name rm:product-Tamarin ;
-	rm:quality "tamarin décourtiqué propre" ;
+	rm:quality "Tamarin décourtiqué propre" ;
 	rm:quantity "100.00" ;
 	rm:store_id "9" ;
 	rm:ts_date_delivered "2012-01-10 12:56:36" ;
 	rm:ts_date_entered "2012-01-10 12:53:07" ;
-	rm:unit_measure "kg" ;
+	rm:unit_measure "Kg" ;
 	rm:user_id "9" .
+
+rm:offering_90
+	a rm:Offering ;
+	rm:com_number "8" ;
+	rm:currency "CFA" ;
+	rm:has_communique rm:communique_500c25f894847 ;
+	rm:has_contact rm:Mazankuy_Diarra ;
+	rm:price "250.00" ;
+	rm:prod_com_id "1" ;
+	rm:prod_name rm:product-Amande_de_karite ;
+	rm:quality "Amande produit selon les nouvelles techniques (ébouillantage)" ;
+	rm:quantity "98.00" ;
+	rm:store_id "90" ;
+	rm:ts_date_delivered "2012-07-22 16:11:11" ;
+	rm:ts_date_entered "2012-07-22 16:05:06" ;
+	rm:unit_measure "Kg" ;
+	rm:user_id "6" .
+
+rm:offering_91
+	a rm:Offering ;
+	rm:com_number "8" ;
+	rm:contact_address "" ;
+	rm:currency "CFA" ;
+	rm:has_communique rm:communique_500c25f894847 ;
+	rm:has_contact rm:Marc_Dakouo ;
+	rm:price "1000.00" ;
+	rm:prod_com_id "2" ;
+	rm:prod_name rm:product-Beurre_de_karite ;
+	rm:quality "Beurre issu des amandes ébouillantées" ;
+	rm:quantity "100.00" ;
+	rm:store_id "91" ;
+	rm:ts_date_delivered "2012-07-22 16:11:11" ;
+	rm:ts_date_entered "2012-07-22 16:05:57" ;
+	rm:unit_measure "Kg" ;
+	rm:user_id "6" .
+
+rm:offering_92
+	a rm:Offering ;
+	rm:com_number "8" ;
+	rm:currency "CFA" ;
+	rm:has_communique rm:communique_500c25f894847 ;
+	rm:has_contact rm:Zakary_Diarra ;
+	rm:price "700.00" ;
+	rm:prod_com_id "3" ;
+	rm:prod_name rm:product-Graine_de_nere ;
+	rm:quality "Graine propre" ;
+	rm:quantity "400.00" ;
+	rm:store_id "92" ;
+	rm:ts_date_delivered "2012-07-22 16:11:11" ;
+	rm:ts_date_entered "2012-07-22 16:06:46" ;
+	rm:unit_measure "Kg" ;
+	rm:user_id "6" .
+
+rm:offering_93
+	a rm:Offering ;
+	rm:com_number "8" ;
+	rm:currency "CFA" ;
+	rm:has_communique rm:communique_500c25f894847 ;
+	rm:has_contact rm:Zakary_Diarra ;
+	rm:price "200.00" ;
+	rm:prod_com_id "1" ;
+	rm:prod_name rm:product-Amande_de_karite ;
+	rm:quality "Amande produit selon les nouvelles techniques (ébouillantage)" ;
+	rm:quantity "500.00" ;
+	rm:store_id "93" ;
+	rm:ts_date_delivered "2012-07-22 16:11:11" ;
+	rm:ts_date_entered "2012-07-22 16:07:21" ;
+	rm:unit_measure "Kg" ;
+	rm:user_id "6" .
+
+rm:offering_94
+	a rm:Offering ;
+	rm:com_number "10" ;
+	rm:contact_address "" ;
+	rm:currency "CFA" ;
+	rm:has_communique rm:communique_5016eda7ceafe ;
+	rm:has_contact rm:Marc_Dakouo ;
+	rm:price "500.00" ;
+	rm:prod_com_id "2" ;
+	rm:prod_name rm:product-Beurre_de_karite ;
+	rm:quality "Beurre issu des amandes ébouillantées" ;
+	rm:quantity "550.00" ;
+	rm:store_id "94" ;
+	rm:ts_date_delivered "2012-07-30 20:25:38" ;
+	rm:ts_date_entered "2012-07-30 11:29:19" ;
+	rm:unit_measure "Kg" ;
+	rm:user_id "6" .
+
+rm:offering_95
+	a rm:Offering ;
+	rm:com_number "10" ;
+	rm:contact_address "" ;
+	rm:currency "CFA" ;
+	rm:has_communique rm:communique_5016eda7ceafe ;
+	rm:has_contact rm:Marc_Dakouo ;
+	rm:price "125.00" ;
+	rm:prod_com_id "1" ;
+	rm:prod_name rm:product-Amande_de_karite ;
+	rm:quality "Amande produit selon les nouvelles techniques (ébouillantage)" ;
+	rm:quantity "120.00" ;
+	rm:store_id "95" ;
+	rm:ts_date_delivered "2012-07-30 20:25:38" ;
+	rm:ts_date_entered "2012-07-30 11:30:26" ;
+	rm:unit_measure "Kg" ;
+	rm:user_id "6" .
+
+rm:offering_96
+	a rm:Offering ;
+	rm:com_number "10" ;
+	rm:currency "CFA" ;
+	rm:has_communique rm:communique_5016eda7ceafe ;
+	rm:has_contact rm:Ives_Diarra ;
+	rm:price "2000.00" ;
+	rm:prod_com_id "5" ;
+	rm:prod_name rm:product-Miel_liquide ;
+	rm:quality "Miel non brulé et pressé avec les soins d’hygiène alimentaire" ;
+	rm:quantity "20.00" ;
+	rm:store_id "96" ;
+	rm:ts_date_delivered "2012-07-30 20:25:38" ;
+	rm:ts_date_entered "2012-07-30 11:31:31" ;
+	rm:unit_measure "L" ;
+	rm:user_id "6" .
+
+rm:offering_97
+	a rm:Offering ;
+	rm:com_number "10" ;
+	rm:currency "CFA" ;
+	rm:has_communique rm:communique_5016eda7ceafe ;
+	rm:has_contact rm:Ives_Diarra ;
+	rm:price "500.00" ;
+	rm:prod_com_id "2" ;
+	rm:prod_name rm:product-Beurre_de_karite ;
+	rm:quality "Beurre issu des amandes ébouillantées" ;
+	rm:quantity "120.00" ;
+	rm:store_id "97" ;
+	rm:ts_date_delivered "2012-07-30 20:25:38" ;
+	rm:ts_date_entered "2012-07-30 11:32:57" ;
+	rm:unit_measure "Kg" ;
+	rm:user_id "6" .
+
+rm:offering_98
+	a rm:Offering ;
+	rm:com_number "10" ;
+	rm:currency "CFA" ;
+	rm:has_communique rm:communique_5016eda7ceafe ;
+	rm:has_contact rm:Gerard_Traore ;
+	rm:price "1000.00" ;
+	rm:prod_com_id "2" ;
+	rm:prod_name rm:product-Beurre_de_karite ;
+	rm:quality "Beurre issu des amandes ébouillantées" ;
+	rm:quantity "81.00" ;
+	rm:store_id "98" ;
+	rm:ts_date_delivered "2012-07-30 20:25:38" ;
+	rm:ts_date_entered "2012-07-30 11:33:53" ;
+	rm:unit_measure "Kg" ;
+	rm:user_id "6" .
+
+rm:offering_99
+	a rm:Offering ;
+	rm:com_number "10" ;
+	rm:currency "CFA" ;
+	rm:has_communique rm:communique_5016eda7ceafe ;
+	rm:has_contact rm:Sabere_Diarra ;
+	rm:price "500.00" ;
+	rm:prod_com_id "2" ;
+	rm:prod_name rm:product-Beurre_de_karite ;
+	rm:quality "Beurre issu des amandes ébouillantées" ;
+	rm:quantity "30.00" ;
+	rm:store_id "99" ;
+	rm:ts_date_delivered "2012-07-30 20:25:38" ;
+	rm:ts_date_entered "2012-07-30 11:35:03" ;
+	rm:unit_measure "Kg" ;
+	rm:user_id "6" .
 
 rm:product-Amande_de_karite
 	a rm:Product ;
-	rdfs:label "Amande de karite" ,
-		   "amande de karite" .
+	rdfs:label "Amande de karite" .
 
 rm:product-Beurre_de_karite
 	a rm:Product ;
-	rdfs:label "Beurre de karite" ,
-		   "beurre de karite" .
+	rdfs:label "Beurre de karite" .
 
 rm:product-Graine_de_nere
 	a rm:Product ;
@@ -774,13 +1743,22 @@ rm:product-Graine_de_nere
 
 rm:product-Miel_liquide
 	a rm:Product ;
-	rdfs:label "Miel liquide" ,
-		   "miel liquide" .
+	rdfs:label "Miel liquide" .
 
 rm:product-Tamarin
 	a rm:Product ;
 	rdfs:label "Tamarin" ,
 		   "tamarin" .
+
+rm:village_Bambara
+	a rm:Village ;
+	rm:in_zone rm:zone_Koula ;
+	rdfs:label "Bambara" .
+
+rm:village_Bankouma
+	a rm:Village ;
+	rm:in_zone rm:zone_Mandiakuy ;
+	rdfs:label "Bankouma" .
 
 rm:village_Bokuy-_Mankoina
 	a rm:Village ;
@@ -788,9 +1766,44 @@ rm:village_Bokuy-_Mankoina
 		   rm:zone_mafounde ;
 	rdfs:label "Bokuy- Mankoïna" .
 
-rm:village_Kona
+rm:village_Bokuy_Mankoina
 	a rm:Village ;
 	rm:in_zone rm:zone_Mafoune ,
+		   rm:zone_mafounde ;
+	rdfs:label "Bokuy Mankoina" .
+
+rm:village_Bokuy_mankoina
+	a rm:Village ;
+	rm:in_zone rm:zone_Mafoune ,
+		   rm:zone_mafounde ;
+	rdfs:label "Bokuy mankoina" .
+
+rm:village_Fifini
+	a rm:Village ;
+	rm:in_zone rm:zone_Koula ;
+	rdfs:label "Fifini" .
+
+rm:village_Gnanilo
+	a rm:Village ;
+	rm:in_zone rm:zone_Diora ;
+	rdfs:label "Gnanilo" .
+
+rm:village_Gnimoukuy
+	a rm:Village ;
+	rm:in_zone rm:zone_Diora ;
+	rdfs:label "Gnimoukuy" .
+
+rm:village_Kinlokuy
+	a rm:Village ;
+	rm:in_zone rm:zone_Diora ,
+		   rm:zone_Mafoune ;
+	rdfs:label "Kinlokuy" ,
+		   "kinlokuy" .
+
+rm:village_Kona
+	a rm:Village ;
+	rm:in_zone rm:zone_Diora ,
+		   rm:zone_Mafoune ,
 		   rm:zone_Mandiakuy ;
 	rdfs:label "Kona" ,
 		   "kona" .
@@ -821,15 +1834,15 @@ rm:village_Siradie
 	rm:in_zone rm:zone_Lanfiala ;
 	rdfs:label "Siradié" .
 
+rm:village_Soute
+	a rm:Village ;
+	rm:in_zone rm:zone_Mafoune ;
+	rdfs:label "Souté" .
+
 rm:village_Tieblenikuy
 	a rm:Village ;
 	rm:in_zone rm:zone_Koula ;
 	rdfs:label "Tieblenikuy" .
-
-rm:village_bambara
-	a rm:Village ;
-	rm:in_zone rm:zone_Koula ;
-	rdfs:label "bambara" .
 
 rm:village_bokuy-mankoina
 	a rm:Village ;
@@ -837,34 +1850,13 @@ rm:village_bokuy-mankoina
 		   rm:zone_mafounde ;
 	rdfs:label "bokuy-mankoina" .
 
-rm:village_bokuy_mankoina
-	a rm:Village ;
-	rm:in_zone rm:zone_Mafoune ,
-		   rm:zone_mafounde ;
-	rdfs:label "bokuy mankoina" .
-
-rm:village_kinlokuy
-	a rm:Village ;
-	rm:in_zone rm:zone_diora ;
-	rdfs:label "kinlokuy" .
-
-rm:village_soute
-	a rm:Village ;
-	rm:in_zone rm:zone_Mafoune ;
-	rdfs:label "souté" .
-
-rm:zakary_diarra
-	a rm:Person ;
-	rm:contact_fname "zakary " ;
-	rm:contact_lname "diarra" ;
-	rm:contact_tel "78571298" ;
-	rm:village rm:village_bokuy_mankoina ;
-	rm:zone rm:zone_Mafoune .
+rm:zone_Diora
+	a rm:Zone ;
+	rdfs:label "Diora" .
 
 rm:zone_Koula
 	a rm:Zone ;
-	rdfs:label "Koula" ,
-		   "koula" .
+	rdfs:label "Koula" .
 
 rm:zone_Lanfiala
 	a rm:Zone ;
@@ -872,18 +1864,14 @@ rm:zone_Lanfiala
 
 rm:zone_Mafoune
 	a rm:Zone ;
-	rdfs:label "Mafouné" ,
+	rdfs:label "Mafoune" ,
+		   "Mafouné" ,
 		   "mafoune" ,
 		   "mafouné" .
 
 rm:zone_Mandiakuy
 	a rm:Zone ;
-	rdfs:label "Mandiakuy" ,
-		   "mandiakuy" .
-
-rm:zone_diora
-	a rm:Zone ;
-	rdfs:label "diora" .
+	rdfs:label "Mandiakuy" .
 
 rm:zone_mafounde
 	a rm:Zone ;
