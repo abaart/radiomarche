@@ -1,5 +1,5 @@
 @prefix rm: <http://purl.org/collections/w4ra/radiomarche/> .
-@prefix   speakle: <http://purl.org/vocs/speakle/> .
+@prefix   speakle: <http://purl.org/collections/w4ra/speakle/> .
 
 rm:Abdias_Dabou
 	speakle:voicelabel_nl <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/AbdiasDabou_nl.wav> .
