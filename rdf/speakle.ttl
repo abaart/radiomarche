@@ -1,0 +1,18 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix  rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix   speakle: <http://purl.org/vocs/speakle/> .
+
+speakle:voicelabel_en
+	a rdf:Property ;
+	rdfs:subPropertyOf speakle:voicelabel .
+	
+speakle:voicelabel_fr
+	a rdf:Property ;
+	rdfs:subPropertyOf speakle:voicelabel .
+	
+speakle:voicelabel_nl
+	a rdf:Property ;
+	rdfs:subPropertyOf speakle:voicelabel .
+	
+speakle:voicelabel
+	a rdf:Property .
