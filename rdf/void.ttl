@@ -13,4 +13,5 @@
 		<alignments.ttl> ,
 		<market_data.ttl> , 
 		<rm-schema.ttl>,
-		<speakle.ttl>.
+		<speakle.ttl>,
+		<rm_dutch_labels.ttl>.

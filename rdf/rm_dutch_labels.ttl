@@ -1,0 +1,231 @@
+@prefix rm: <http://purl.org/collections/w4ra/radiomarche/> .
+@prefix   speakle: <http://purl.org/vocs/speakle/> .
+
+rm:Abdias_Dabou
+	speakle:voicelabel_nl <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/AbdiasDabou_nl.wav> .
+
+rm:Andia_Kalakodio
+	speakle:voicelabel_nl <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/AndiaKalakodio_nl.wav> .
+
+rm:Birawe_Domboua
+	speakle:voicelabel_nl <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/BiraweDomboua_nl.wav> .
+
+rm:Fidel_Kone
+	speakle:voicelabel_nl <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/FidelKone_nl.wav> .
+
+rm:Fidel_kone
+	speakle:voicelabel_nl <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/Fidelkone_nl.wav> .
+
+rm:Gedeon_Keita
+	speakle:voicelabel_nl <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/GedeonKeita_nl.wav> .
+
+rm:Gerard_Traore
+	speakle:voicelabel_nl <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/GerardTraore_nl.wav> .
+
+rm:Heke_Dembele
+	speakle:voicelabel_nl <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/HekeDembele_nl.wav> .
+
+rm:Irene_Keita
+	speakle:voicelabel_nl <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/IreneKeita_nl.wav> .
+
+rm:Ives_Diarra
+	speakle:voicelabel_nl <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/IvesDiarra_nl.wav> .
+
+rm:Mamadou_Karambe
+	speakle:voicelabel_nl <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/MamadouKarambe_nl.wav> .
+
+rm:Marc_Dakouo
+	speakle:voicelabel_nl <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/MarcDakouo_nl.wav> .
+
+rm:Mazankuy_Diarra
+	speakle:voicelabel_nl <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/MazankuyDiarra_nl.wav> .
+
+rm:Missa_Kamate
+	speakle:voicelabel_nl <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/MissaKamate_nl.wav> .
+
+rm:Moutian_Keita
+	speakle:voicelabel_nl <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/MoutianKeita_nl.wav> .
+
+rm:Sabere_Diarra
+	speakle:voicelabel_nl <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/SabereDiarra_nl.wav> .
+
+rm:Tandin_Dembele
+	speakle:voicelabel_nl <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/TandinDembele_nl.wav> .
+
+rm:Zakary_Diarra
+	speakle:voicelabel_nl <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/ZakaryDiarra_nl.wav> .
+
+rm:currency-CFA
+	speakle:voicelabel_nl <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/CFA_nl.wav> .
+
+rm:currency-cfa
+	speakle:voicelabel_nl <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/cfa_nl.wav> .
+
+rm:measure-Kg
+	speakle:voicelabel_nl <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/Kg_nl.wav> .
+
+rm:measure-L
+	speakle:voicelabel_nl <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/L_nl.wav> .
+
+rm:price-1000_00
+	speakle:voicelabel_nl <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/1000_00_nl.wav> .
+
+rm:price-1230_00
+	speakle:voicelabel_nl <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/1230_00_nl.wav> .
+
+rm:price-125_00
+	speakle:voicelabel_nl <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/125_00_nl.wav> .
+
+rm:price-150_00
+	speakle:voicelabel_nl <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/150_00_nl.wav> .
+
+rm:price-2000_00
+	speakle:voicelabel_nl <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/2000_00_nl.wav> .
+
+rm:price-200_00
+	speakle:voicelabel_nl <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/200_00_nl.wav> .
+
+rm:price-250_00
+	speakle:voicelabel_nl <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/250_00_nl.wav> .
+
+rm:price-275_00
+	speakle:voicelabel_nl <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/275_00_nl.wav> .
+
+rm:price-300_00
+	speakle:voicelabel_nl <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/300_00_nl.wav> .
+
+rm:price-425_00
+	speakle:voicelabel_nl <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/425_00_nl.wav> .
+
+rm:price-450_00
+	speakle:voicelabel_nl <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/450_00_nl.wav> .
+
+rm:price-500_00
+	speakle:voicelabel_nl <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/500_00_nl.wav> .
+
+rm:price-600_00
+	speakle:voicelabel_nl <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/600_00_nl.wav> .
+
+rm:price-625_00
+	speakle:voicelabel_nl <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/625_00_nl.wav> .
+
+rm:price-700_00
+	speakle:voicelabel_nl <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/700_00_nl.wav> .
+
+rm:price-750_00
+	speakle:voicelabel_nl <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/750_00_nl.wav> .
+
+rm:product-Amande_de_karite
+	speakle:voicelabel_nl <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/Amande_de_karite_nl.wav> .
+
+rm:product-Beurre_de_karite
+	speakle:voicelabel_nl <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/Beurre_de_karite_nl.wav> .
+
+rm:product-Graine_de_nere
+	speakle:voicelabel_nl <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/Graine_de_nere_nl.wav> .
+
+rm:product-Miel_liquide
+	speakle:voicelabel_nl <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/Miel_liquide_nl.wav> .
+
+rm:product-Tamarin
+	speakle:voicelabel_nl <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/Tamarin_nl.wav> ,
+				<http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/tamarin_nl.wav> .
+
+rm:quantity-1000_00
+	speakle:voicelabel_nl <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/1000_00_nl.wav> .
+
+rm:quantity-100_00
+	speakle:voicelabel_nl <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/100_00_nl.wav> .
+
+rm:quantity-105_00
+	speakle:voicelabel_nl <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/105_00_nl.wav> .
+
+rm:quantity-120_00
+	speakle:voicelabel_nl <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/120_00_nl.wav> .
+
+rm:quantity-12_00
+	speakle:voicelabel_nl <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/12_00_nl.wav> .
+
+rm:quantity-130_00
+	speakle:voicelabel_nl <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/130_00_nl.wav> .
+
+rm:quantity-200_00
+	speakle:voicelabel_nl <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/200_00_nl.wav> .
+
+rm:quantity-20_00
+	speakle:voicelabel_nl <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/20_00_nl.wav> .
+
+rm:quantity-250_00
+	speakle:voicelabel_nl <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/250_00_nl.wav> .
+
+rm:quantity-25_00
+	speakle:voicelabel_nl <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/25_00_nl.wav> .
+
+rm:quantity-3000_00
+	speakle:voicelabel_nl <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/3000_00_nl.wav> .
+
+rm:quantity-300_00
+	speakle:voicelabel_nl <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/300_00_nl.wav> .
+
+rm:quantity-30_00
+	speakle:voicelabel_nl <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/30_00_nl.wav> .
+
+rm:quantity-321_00
+	speakle:voicelabel_nl <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/321_00_nl.wav> .
+
+rm:quantity-400_00
+	speakle:voicelabel_nl <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/400_00_nl.wav> .
+
+rm:quantity-40_00
+	speakle:voicelabel_nl <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/40_00_nl.wav> .
+
+rm:quantity-42_00
+	speakle:voicelabel_nl <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/42_00_nl.wav> .
+
+rm:quantity-450_00
+	speakle:voicelabel_nl <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/450_00_nl.wav> .
+
+rm:quantity-45_00
+	speakle:voicelabel_nl <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/45_00_nl.wav> .
+
+rm:quantity-470_00
+	speakle:voicelabel_nl <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/470_00_nl.wav> .
+
+rm:quantity-500_00
+	speakle:voicelabel_nl <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/500_00_nl.wav> .
+
+rm:quantity-50_00
+	speakle:voicelabel_nl <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/50_00_nl.wav> .
+
+rm:quantity-52_00
+	speakle:voicelabel_nl <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/52_00_nl.wav> .
+
+rm:quantity-550_00
+	speakle:voicelabel_nl <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/550_00_nl.wav> .
+
+rm:quantity-563_00
+	speakle:voicelabel_nl <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/563_00_nl.wav> .
+
+rm:quantity-60_00
+	speakle:voicelabel_nl <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/60_00_nl.wav> .
+
+rm:quantity-75_00
+	speakle:voicelabel_nl <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/75_00_nl.wav> .
+
+rm:quantity-800_00
+	speakle:voicelabel_nl <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/800_00_nl.wav> .
+
+rm:quantity-80_00
+	speakle:voicelabel_nl <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/80_00_nl.wav> .
+
+rm:quantity-81_00
+	speakle:voicelabel_nl <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/81_00_nl.wav> .
+
+rm:quantity-900_00
+	speakle:voicelabel_nl <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/900_00_nl.wav> .
+
+rm:quantity-90_00
+	speakle:voicelabel_nl <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/90_00_nl.wav> .
+
+rm:quantity-98_00
+	speakle:voicelabel_nl <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/98_00_nl.wav> .
