@@ -183,3 +183,4 @@ rm:zone
 	a rdf:Property ;
 	rdfs:label "zone" ;
 	rdfs:range rm:Zone .
+	

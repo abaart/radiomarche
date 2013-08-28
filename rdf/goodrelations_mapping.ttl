@@ -1,0 +1,46 @@
+
+@prefix gr:      <http://purl.org/goodrelations/v1#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix  rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix   rm: <http://purl.org/collections/w4ra/radiomarche/> .
+
+# Schema mapping to GoodRelations
+
+# Classes 
+rm:Offering rdfs:subClassOf gr:Offering.
+
+rm:Person rdfs:subClassOf gr:BusinessEntity.
+
+rm:Price rdfs:subClassOf gr:UnitPriceSpecification.
+
+rm:Product rdfs:subClassOf gr:ProductOrService.
+
+rm:Quantity rdfs:subClassOf gr:QuantitativeValue.
+
+rm:Village rdfs:subClassOf gr:Location.
+
+rm:Zone rdfs:subClassOf gr:Location.
+
+
+# Properties
+
+
+rm:contact_fname  rdfs:subPropertyOf gr:name.
+
+rm:contact_lname  rdfs:subPropertyOf gr:name.
+
+rm:currency rdfs:subPropertyOf gr:hasCurrency.
+
+rm:has_contact rdfs:subPropertyOf gr:availableAtOrFrom.
+
+rm:price rdfs:subPropertyOf gr:hasCurrencyValue.
+
+rm:prod_name rdfs:subPropertyOf gr:typeOfGood.
+
+rm:quality rdfs:subPropertyOf  gr:condition.
+
+rm:quantity rdfs:subPropertyOf gr:hasInventoryLevel.
+
+rm:ts_date_entered rdfs:subPropertyOf gr:validFrom.
+
+

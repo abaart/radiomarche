@@ -14,4 +14,5 @@
 		<market_data.ttl> , 
 		<rm-schema.ttl>,
 		<speakle.ttl>,
-		<rm_dutch_labels.ttl>.
+		<rm_dutch_labels.ttl>,
+		<goodrelations_mapping.ttl>.
