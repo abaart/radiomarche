@@ -1,19 +1,28 @@
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix  rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix   rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix   rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix   speakle: <http://purl.org/collections/w4ra/speakle/> .
+@prefix   lvont: <http://lexvo.org/ontology#>.
+@prefix   lexvoid: <http://lexvo.org/id/iso639-3/>.
 
 speakle:voicelabel_en
 	a rdf:Property ;
+	lvont:language lexvoid:eng; 
+	rdfs:label "has English voicelabel"@en;
 	rdfs:subPropertyOf speakle:voicelabel .
 	
 speakle:voicelabel_fr
 	a rdf:Property ;
+	lvont:language lexvoid:fra;
+	rdfs:label "has French voicelabel"@en;
 	rdfs:subPropertyOf speakle:voicelabel .
 	
 speakle:voicelabel_nl
 	a rdf:Property ;
+	lvont:language lexvoid:nld;
+	rdfs:label "has Dutch voicelabel";
 	rdfs:subPropertyOf speakle:voicelabel .
 	
 speakle:voicelabel
-	a rdf:Property .
+	a rdf:Property ;
+	rdfs:label "has voicelabel".
 	
