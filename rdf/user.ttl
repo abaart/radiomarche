@@ -1,0 +1,7 @@
+@base            <user> .
+@prefix speakle: <http://purl.org/collections/w4ra/speakle/> .
+
+# Named toplevel resources (1)
+
+<http://purl.org/collections/w4ra/radiomarche/zone_Koula>
+	speakle:voicelabel_en <http://127.0.0.1/audio/Koula_en.wav> .

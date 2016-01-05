@@ -19,7 +19,7 @@ speakle:voicelabel_fr
 speakle:voicelabel_nl
 	a rdf:Property ;
 	lvont:language lexvoid:nld;
-	rdfs:label "has Dutch voicelabel";
+	rdfs:label "has Dutch voicelabel"@en;
 	rdfs:subPropertyOf speakle:voicelabel .
 	
 speakle:voicelabel
