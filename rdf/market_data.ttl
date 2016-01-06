@@ -12,7 +12,7 @@ rm:Abdias_Dabou
 	rm:contact_tel "78 81 62 15" ;
 	rm:village rm:village_Bankouma ;
 	rm:zone rm:zone_Mandiakuy ;
-	speakle:voicelabel_en <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/AbdiasDabou_en.wav> .
+	speakle:voicelabel_en <http://127.0.0.1/audio/AbdiasDabou_en.wav> .
 
 rm:Andia_Kalakodio
 	a rm:Person ;
@@ -21,7 +21,7 @@ rm:Andia_Kalakodio
 	rm:contact_tel "78 58 35 29" ;
 	rm:village rm:village_Siradie ;
 	rm:zone rm:zone_Lanfiala ;
-	speakle:voicelabel_en <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/AndiaKalakodio_en.wav> .
+	speakle:voicelabel_en <http://127.0.0.1/audio/AndiaKalakodio_en.wav> .
 
 rm:Birawe_Domboua
 	a rm:Person ;
@@ -30,7 +30,7 @@ rm:Birawe_Domboua
 	rm:contact_tel "78 13 86 71" ;
 	rm:village rm:village_Samoukuy ;
 	rm:zone rm:zone_Mafoune ;
-	speakle:voicelabel_en <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/BiraweDomboua_en.wav> .
+	speakle:voicelabel_en <http://127.0.0.1/audio/BiraweDomboua_en.wav> .
 
 rm:Fidel_Kone
 	a rm:Person ;
@@ -40,7 +40,7 @@ rm:Fidel_Kone
 		       "77669626" ;
 	rm:village rm:village_Kona ;
 	rm:zone rm:zone_Mandiakuy ;
-	speakle:voicelabel_en <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/FidelKone_en.wav> .
+	speakle:voicelabel_en <http://127.0.0.1/audio/FidelKone_en.wav> .
 
 rm:Fidel_kone
 	a rm:Person ;
@@ -49,7 +49,7 @@ rm:Fidel_kone
 	rm:contact_tel "77669626" ;
 	rm:village rm:village_Kona ;
 	rm:zone rm:zone_Mandiakuy ;
-	speakle:voicelabel_en <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/Fidelkone_en.wav> .
+	speakle:voicelabel_en <http://127.0.0.1/audio/Fidelkone_en.wav> .
 
 rm:Gedeon_Keita
 	a rm:Person ;
@@ -58,7 +58,7 @@ rm:Gedeon_Keita
 	rm:contact_tel "78 99 66 85" ;
 	rm:village rm:village_Gnimoukuy ;
 	rm:zone rm:zone_Diora ;
-	speakle:voicelabel_en <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/GedeonKeita_en.wav> .
+	speakle:voicelabel_en <http://127.0.0.1/audio/GedeonKeita_en.wav> .
 
 rm:Gerard_Traore
 	a rm:Person ;
@@ -67,7 +67,7 @@ rm:Gerard_Traore
 	rm:contact_tel "77 27 42 48" ;
 	rm:village rm:village_Tieblenikuy ;
 	rm:zone rm:zone_Koula ;
-	speakle:voicelabel_en <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/GerardTraore_en.wav> .
+	speakle:voicelabel_en <http://127.0.0.1/audio/GerardTraore_en.wav> .
 
 rm:Heke_Dembele
 	a rm:Person ;
@@ -76,7 +76,7 @@ rm:Heke_Dembele
 	rm:contact_tel "76 27 83 91" ;
 	rm:village rm:village_Fifini ;
 	rm:zone rm:zone_Koula ;
-	speakle:voicelabel_en <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/HekeDembele_en.wav> .
+	speakle:voicelabel_en <http://127.0.0.1/audio/HekeDembele_en.wav> .
 
 rm:Irene_Keita
 	a rm:Person ;
@@ -85,7 +85,7 @@ rm:Irene_Keita
 	rm:contact_tel "78 25 84 13" ;
 	rm:village rm:village_Sanda ;
 	rm:zone rm:zone_Mafoune ;
-	speakle:voicelabel_en <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/IreneKeita_en.wav> .
+	speakle:voicelabel_en <http://127.0.0.1/audio/IreneKeita_en.wav> .
 
 rm:Ives_Diarra
 	a rm:Person ;
@@ -99,7 +99,7 @@ rm:Ives_Diarra
 		   rm:village_Kona ;
 	rm:zone rm:zone_Diora ,
 		rm:zone_Mafoune ;
-	speakle:voicelabel_en <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/IvesDiarra_en.wav> .
+	speakle:voicelabel_en <http://127.0.0.1/audio/IvesDiarra_en.wav> .
 
 rm:Mamadou_Karambe
 	a rm:Person ;
@@ -108,7 +108,7 @@ rm:Mamadou_Karambe
 	rm:contact_tel "79 40 79 54" ;
 	rm:village rm:village_Pakan_kado ;
 	rm:zone rm:zone_Lanfiala ;
-	speakle:voicelabel_en <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/MamadouKarambe_en.wav> .
+	speakle:voicelabel_en <http://127.0.0.1/audio/MamadouKarambe_en.wav> .
 
 rm:Marc_Dakouo
 	a rm:Person ;
@@ -117,7 +117,7 @@ rm:Marc_Dakouo
 	rm:contact_tel "78 89 31 86" ;
 	rm:village rm:village_Gnanilo ;
 	rm:zone rm:zone_Diora ;
-	speakle:voicelabel_en <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/MarcDakouo_en.wav> .
+	speakle:voicelabel_en <http://127.0.0.1/audio/MarcDakouo_en.wav> .
 
 rm:Mazankuy_Diarra
 	a rm:Person ;
@@ -127,7 +127,7 @@ rm:Mazankuy_Diarra
 		       "70549489" ;
 	rm:village rm:village_Soute ;
 	rm:zone rm:zone_Mafoune ;
-	speakle:voicelabel_en <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/MazankuyDiarra_en.wav> .
+	speakle:voicelabel_en <http://127.0.0.1/audio/MazankuyDiarra_en.wav> .
 
 rm:Missa_Kamate
 	a rm:Person ;
@@ -136,7 +136,7 @@ rm:Missa_Kamate
 	rm:contact_tel "78 18 05 49" ;
 	rm:village rm:village_Pakan_Bobo ;
 	rm:zone rm:zone_Koula ;
-	speakle:voicelabel_en <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/MissaKamate_en.wav> .
+	speakle:voicelabel_en <http://127.0.0.1/audio/MissaKamate_en.wav> .
 
 rm:Moutian_Keita
 	a rm:Person ;
@@ -145,7 +145,7 @@ rm:Moutian_Keita
 	rm:contact_tel "78437947" ;
 	rm:village rm:village_Sira ;
 	rm:zone rm:zone_Mafoune ;
-	speakle:voicelabel_en <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/MoutianKeita_en.wav> .
+	speakle:voicelabel_en <http://127.0.0.1/audio/MoutianKeita_en.wav> .
 
 rm:Sabere_Diarra
 	a rm:Person ;
@@ -154,7 +154,7 @@ rm:Sabere_Diarra
 	rm:contact_tel "77 15 23 36" ;
 	rm:village rm:village_Bambara ;
 	rm:zone rm:zone_Koula ;
-	speakle:voicelabel_en <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/SabereDiarra_en.wav> .
+	speakle:voicelabel_en <http://127.0.0.1/audio/SabereDiarra_en.wav> .
 
 rm:Tandin_Dembele
 	a rm:Person ;
@@ -163,7 +163,7 @@ rm:Tandin_Dembele
 	rm:contact_tel "7899103" ;
 	rm:village rm:village_Kona ;
 	rm:zone rm:zone_Mafoune ;
-	speakle:voicelabel_en <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/TandinDembele_en.wav> .
+	speakle:voicelabel_en <http://127.0.0.1/audio/TandinDembele_en.wav> .
 
 rm:Zakary_Diarra
 	a rm:Person ;
@@ -179,7 +179,7 @@ rm:Zakary_Diarra
 		   rm:village_bokuy-mankoina ;
 	rm:zone rm:zone_Mafoune ,
 		rm:zone_mafounde ;
-	speakle:voicelabel_en <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/ZakaryDiarra_en.wav> .
+	speakle:voicelabel_en <http://127.0.0.1/audio/ZakaryDiarra_en.wav> .
 
 rm:communique_4ef066fd51ef2
 	a rm:Communique ;
@@ -417,22 +417,22 @@ rm:communique_5085337ac2582
 
 rm:currency-CFA
 	a rm:Currency ;
-	speakle:voicelabel_en <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/CFA_en.wav> ;
+	speakle:voicelabel_en <http://127.0.0.1/audio/CFA_en.wav> ;
 	rdfs:label "CFA" .
 
 rm:currency-cfa
 	a rm:Currency ;
-	speakle:voicelabel_en <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/cfa_en.wav> ;
+	speakle:voicelabel_en <http://127.0.0.1/audio/cfa_en.wav> ;
 	rdfs:label "cfa" .
 
 rm:measure-Kg
 	a rm:Measure ;
-	speakle:voicelabel_en <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/Kg_en.wav> ;
+	speakle:voicelabel_en <http://127.0.0.1/audio/Kg_en.wav> ;
 	rdfs:label "Kg" .
 
 rm:measure-L
 	a rm:Measure ;
-	speakle:voicelabel_en <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/L_en.wav> ;
+	speakle:voicelabel_en <http://127.0.0.1/audio/L_en.wav> ;
 	rdfs:label "L" .
 
 rm:offering_1
@@ -1983,274 +1983,274 @@ rm:offering_99
 
 rm:price-1000_00
 	a rm:Price ;
-	speakle:voicelabel_en <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/1000_00_en.wav> ;
+	speakle:voicelabel_en <http://127.0.0.1/audio/1000_00_en.wav> ;
 	rdfs:label "1000.00" .
 
 rm:price-1230_00
 	a rm:Price ;
-	speakle:voicelabel_en <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/1230_00_en.wav> ;
+	speakle:voicelabel_en <http://127.0.0.1/audio/1230_00_en.wav> ;
 	rdfs:label "1230.00" .
 
 rm:price-125_00
 	a rm:Price ;
-	speakle:voicelabel_en <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/125_00_en.wav> ;
+	speakle:voicelabel_en <http://127.0.0.1/audio/125_00_en.wav> ;
 	rdfs:label "125.00" .
 
 rm:price-150_00
 	a rm:Price ;
-	speakle:voicelabel_en <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/150_00_en.wav> ;
+	speakle:voicelabel_en <http://127.0.0.1/audio/150_00_en.wav> ;
 	rdfs:label "150.00" .
 
 rm:price-2000_00
 	a rm:Price ;
-	speakle:voicelabel_en <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/2000_00_en.wav> ;
+	speakle:voicelabel_en <http://127.0.0.1/audio/2000_00_en.wav> ;
 	rdfs:label "2000.00" .
 
 rm:price-200_00
 	a rm:Price ;
-	speakle:voicelabel_en <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/200_00_en.wav> ;
+	speakle:voicelabel_en <http://127.0.0.1/audio/200_00_en.wav> ;
 	rdfs:label "200.00" .
 
 rm:price-250_00
 	a rm:Price ;
-	speakle:voicelabel_en <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/250_00_en.wav> ;
+	speakle:voicelabel_en <http://127.0.0.1/audio/250_00_en.wav> ;
 	rdfs:label "250.00" .
 
 rm:price-275_00
 	a rm:Price ;
-	speakle:voicelabel_en <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/275_00_en.wav> ;
+	speakle:voicelabel_en <http://127.0.0.1/audio/275_00_en.wav> ;
 	rdfs:label "275.00" .
 
 rm:price-300_00
 	a rm:Price ;
-	speakle:voicelabel_en <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/300_00_en.wav> ;
+	speakle:voicelabel_en <http://127.0.0.1/audio/300_00_en.wav> ;
 	rdfs:label "300.00" .
 
 rm:price-425_00
 	a rm:Price ;
-	speakle:voicelabel_en <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/425_00_en.wav> ;
+	speakle:voicelabel_en <http://127.0.0.1/audio/425_00_en.wav> ;
 	rdfs:label "425.00" .
 
 rm:price-450_00
 	a rm:Price ;
-	speakle:voicelabel_en <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/450_00_en.wav> ;
+	speakle:voicelabel_en <http://127.0.0.1/audio/450_00_en.wav> ;
 	rdfs:label "450.00" .
 
 rm:price-500_00
 	a rm:Price ;
-	speakle:voicelabel_en <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/500_00_en.wav> ;
+	speakle:voicelabel_en <http://127.0.0.1/audio/500_00_en.wav> ;
 	rdfs:label "500.00" .
 
 rm:price-600_00
 	a rm:Price ;
-	speakle:voicelabel_en <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/600_00_en.wav> ;
+	speakle:voicelabel_en <http://127.0.0.1/audio/600_00_en.wav> ;
 	rdfs:label "600.00" .
 
 rm:price-625_00
 	a rm:Price ;
-	speakle:voicelabel_en <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/625_00_en.wav> ;
+	speakle:voicelabel_en <http://127.0.0.1/audio/625_00_en.wav> ;
 	rdfs:label "625.00" .
 
 rm:price-700_00
 	a rm:Price ;
-	speakle:voicelabel_en <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/700_00_en.wav> ;
+	speakle:voicelabel_en <http://127.0.0.1/audio/700_00_en.wav> ;
 	rdfs:label "700.00" .
 
 rm:price-750_00
 	a rm:Price ;
-	speakle:voicelabel_en <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/750_00_en.wav> ;
+	speakle:voicelabel_en <http://127.0.0.1/audio/750_00_en.wav> ;
 	rdfs:label "750.00" .
 
 rm:product-Amande_de_karite
 	a rm:Product ;
-	speakle:voicelabel_en <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/Amande_de_karite_en.wav> ;
+	speakle:voicelabel_en <http://127.0.0.1/audio/Amande_de_karite_en.wav> ;
 	rdfs:label "Amande de karite" .
 
 rm:product-Beurre_de_karite
 	a rm:Product ;
-	speakle:voicelabel_en <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/Beurre_de_karite_en.wav> ;
+	speakle:voicelabel_en <http://127.0.0.1/audio/Beurre_de_karite_en.wav> ;
 	rdfs:label "Beurre de karite" .
 
 rm:product-Graine_de_nere
 	a rm:Product ;
-	speakle:voicelabel_en <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/Graine_de_nere_en.wav> ;
+	speakle:voicelabel_en <http://127.0.0.1/audio/Graine_de_nere_en.wav> ;
 	rdfs:label "Graine de nere" .
 
 rm:product-Miel_liquide
 	a rm:Product ;
-	speakle:voicelabel_en <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/Miel_liquide_en.wav> ;
+	speakle:voicelabel_en <http://127.0.0.1/audio/Miel_liquide_en.wav> ;
 	rdfs:label "Miel liquide" .
 
 rm:product-Tamarin
 	a rm:Product ;
-	speakle:voicelabel_en <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/Tamarin_en.wav> ,
-			      <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/tamarin_en.wav> ;
+	speakle:voicelabel_en <http://127.0.0.1/audio/Tamarin_en.wav> ,
+			      <http://127.0.0.1/audio/tamarin_en.wav> ;
 	rdfs:label "Tamarin" ,
 		   "tamarin" .
 
 rm:quantity-1000_00
 	a rm:Quantity ;
-	speakle:voicelabel_en <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/1000_00_en.wav> ;
+	speakle:voicelabel_en <http://127.0.0.1/audio/1000_00_en.wav> ;
 	rdfs:label "1000.00" .
 
 rm:quantity-100_00
 	a rm:Quantity ;
-	speakle:voicelabel_en <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/100_00_en.wav> ;
+	speakle:voicelabel_en <http://127.0.0.1/audio/100_00_en.wav> ;
 	rdfs:label "100.00" .
 
 rm:quantity-105_00
 	a rm:Quantity ;
-	speakle:voicelabel_en <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/105_00_en.wav> ;
+	speakle:voicelabel_en <http://127.0.0.1/audio/105_00_en.wav> ;
 	rdfs:label "105.00" .
 
 rm:quantity-120_00
 	a rm:Quantity ;
-	speakle:voicelabel_en <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/120_00_en.wav> ;
+	speakle:voicelabel_en <http://127.0.0.1/audio/120_00_en.wav> ;
 	rdfs:label "120.00" .
 
 rm:quantity-12_00
 	a rm:Quantity ;
-	speakle:voicelabel_en <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/12_00_en.wav> ;
+	speakle:voicelabel_en <http://127.0.0.1/audio/12_00_en.wav> ;
 	rdfs:label "12.00" .
 
 rm:quantity-130_00
 	a rm:Quantity ;
-	speakle:voicelabel_en <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/130_00_en.wav> ;
+	speakle:voicelabel_en <http://127.0.0.1/audio/130_00_en.wav> ;
 	rdfs:label "130.00" .
 
 rm:quantity-200_00
 	a rm:Quantity ;
-	speakle:voicelabel_en <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/200_00_en.wav> ;
+	speakle:voicelabel_en <http://127.0.0.1/audio/200_00_en.wav> ;
 	rdfs:label "200.00" .
 
 rm:quantity-20_00
 	a rm:Quantity ;
-	speakle:voicelabel_en <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/20_00_en.wav> ;
+	speakle:voicelabel_en <http://127.0.0.1/audio/20_00_en.wav> ;
 	rdfs:label "20.00" .
 
 rm:quantity-250_00
 	a rm:Quantity ;
-	speakle:voicelabel_en <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/250_00_en.wav> ;
+	speakle:voicelabel_en <http://127.0.0.1/audio/250_00_en.wav> ;
 	rdfs:label "250.00" .
 
 rm:quantity-25_00
 	a rm:Quantity ;
-	speakle:voicelabel_en <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/25_00_en.wav> ;
+	speakle:voicelabel_en <http://127.0.0.1/audio/25_00_en.wav> ;
 	rdfs:label "25.00" .
 
 rm:quantity-3000_00
 	a rm:Quantity ;
-	speakle:voicelabel_en <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/3000_00_en.wav> ;
+	speakle:voicelabel_en <http://127.0.0.1/audio/3000_00_en.wav> ;
 	rdfs:label "3000.00" .
 
 rm:quantity-300_00
 	a rm:Quantity ;
-	speakle:voicelabel_en <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/300_00_en.wav> ;
+	speakle:voicelabel_en <http://127.0.0.1/audio/300_00_en.wav> ;
 	rdfs:label "300.00" .
 
 rm:quantity-30_00
 	a rm:Quantity ;
-	speakle:voicelabel_en <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/30_00_en.wav> ;
+	speakle:voicelabel_en <http://127.0.0.1/audio/30_00_en.wav> ;
 	rdfs:label "30.00" .
 
 rm:quantity-321_00
 	a rm:Quantity ;
-	speakle:voicelabel_en <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/321_00_en.wav> ;
+	speakle:voicelabel_en <http://127.0.0.1/audio/321_00_en.wav> ;
 	rdfs:label "321.00" .
 
 rm:quantity-400_00
 	a rm:Quantity ;
-	speakle:voicelabel_en <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/400_00_en.wav> ;
+	speakle:voicelabel_en <http://127.0.0.1/audio/400_00_en.wav> ;
 	rdfs:label "400.00" .
 
 rm:quantity-40_00
 	a rm:Quantity ;
-	speakle:voicelabel_en <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/40_00_en.wav> ;
+	speakle:voicelabel_en <http://127.0.0.1/audio/40_00_en.wav> ;
 	rdfs:label "40.00" .
 
 rm:quantity-42_00
 	a rm:Quantity ;
-	speakle:voicelabel_en <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/42_00_en.wav> ;
+	speakle:voicelabel_en <http://127.0.0.1/audio/42_00_en.wav> ;
 	rdfs:label "42.00" .
 
 rm:quantity-450_00
 	a rm:Quantity ;
-	speakle:voicelabel_en <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/450_00_en.wav> ;
+	speakle:voicelabel_en <http://127.0.0.1/audio/450_00_en.wav> ;
 	rdfs:label "450.00" .
 
 rm:quantity-45_00
 	a rm:Quantity ;
-	speakle:voicelabel_en <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/45_00_en.wav> ;
+	speakle:voicelabel_en <http://127.0.0.1/audio/45_00_en.wav> ;
 	rdfs:label "45.00" .
 
 rm:quantity-470_00
 	a rm:Quantity ;
-	speakle:voicelabel_en <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/470_00_en.wav> ;
+	speakle:voicelabel_en <http://127.0.0.1/audio/470_00_en.wav> ;
 	rdfs:label "470.00" .
 
 rm:quantity-500_00
 	a rm:Quantity ;
-	speakle:voicelabel_en <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/500_00_en.wav> ;
+	speakle:voicelabel_en <http://127.0.0.1/audio/500_00_en.wav> ;
 	rdfs:label "500.00" .
 
 rm:quantity-50_00
 	a rm:Quantity ;
-	speakle:voicelabel_en <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/50_00_en.wav> ;
+	speakle:voicelabel_en <http://127.0.0.1/audio/50_00_en.wav> ;
 	rdfs:label "50.00" .
 
 rm:quantity-52_00
 	a rm:Quantity ;
-	speakle:voicelabel_en <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/52_00_en.wav> ;
+	speakle:voicelabel_en <http://127.0.0.1/audio/52_00_en.wav> ;
 	rdfs:label "52.00" .
 
 rm:quantity-550_00
 	a rm:Quantity ;
-	speakle:voicelabel_en <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/550_00_en.wav> ;
+	speakle:voicelabel_en <http://127.0.0.1/audio/550_00_en.wav> ;
 	rdfs:label "550.00" .
 
 rm:quantity-563_00
 	a rm:Quantity ;
-	speakle:voicelabel_en <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/563_00_en.wav> ;
+	speakle:voicelabel_en <http://127.0.0.1/audio/563_00_en.wav> ;
 	rdfs:label "563.00" .
 
 rm:quantity-60_00
 	a rm:Quantity ;
-	speakle:voicelabel_en <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/60_00_en.wav> ;
+	speakle:voicelabel_en <http://127.0.0.1/audio/60_00_en.wav> ;
 	rdfs:label "60.00" .
 
 rm:quantity-75_00
 	a rm:Quantity ;
-	speakle:voicelabel_en <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/75_00_en.wav> ;
+	speakle:voicelabel_en <http://127.0.0.1/audio/75_00_en.wav> ;
 	rdfs:label "75.00" .
 
 rm:quantity-800_00
 	a rm:Quantity ;
-	speakle:voicelabel_en <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/800_00_en.wav> ;
+	speakle:voicelabel_en <http://127.0.0.1/audio/800_00_en.wav> ;
 	rdfs:label "800.00" .
 
 rm:quantity-80_00
 	a rm:Quantity ;
-	speakle:voicelabel_en <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/80_00_en.wav> ;
+	speakle:voicelabel_en <http://127.0.0.1/audio/80_00_en.wav> ;
 	rdfs:label "80.00" .
 
 rm:quantity-81_00
 	a rm:Quantity ;
-	speakle:voicelabel_en <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/81_00_en.wav> ;
+	speakle:voicelabel_en <http://127.0.0.1/audio/81_00_en.wav> ;
 	rdfs:label "81.00" .
 
 rm:quantity-900_00
 	a rm:Quantity ;
-	speakle:voicelabel_en <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/900_00_en.wav> ;
+	speakle:voicelabel_en <http://127.0.0.1/audio/900_00_en.wav> ;
 	rdfs:label "900.00" .
 
 rm:quantity-90_00
 	a rm:Quantity ;
-	speakle:voicelabel_en <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/90_00_en.wav> ;
+	speakle:voicelabel_en <http://127.0.0.1/audio/90_00_en.wav> ;
 	rdfs:label "90.00" .
 
 rm:quantity-98_00
 	a rm:Quantity ;
-	speakle:voicelabel_en <http://semanticweb.cs.vu.nl/amalgame/voicestest/VXMLtest/audio/98_00_en.wav> ;
+	speakle:voicelabel_en <http://127.0.0.1/audio/98_00_en.wav> ;
 	rdfs:label "98.00" .
 
 rm:village_Bambara
