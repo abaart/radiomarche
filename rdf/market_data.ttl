@@ -2364,6 +2364,7 @@ rm:zone_Diora
 
 rm:zone_Koula
 	a rm:Zone ;
+	speakle:voicelabel_en <http://127.0.0.1/audio/Koula_en.wav>;
 	rdfs:label "Koula" .
 
 rm:zone_Lanfiala
